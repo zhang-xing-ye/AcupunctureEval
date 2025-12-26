@@ -1,7 +1,19 @@
 import { createApp } from 'vue'
+import { createPinia } from 'pinia'
+import { VueUiDonut, VueUiXy } from 'vue-data-ui'
+import 'vue-data-ui/style.css'
 import App from './App.vue'
 import router from './router'
-import { createPinia } from 'pinia'
-import VueUiXy from "vue-data-ui/vue-ui-xy";
+import i18n from './locales'
+import './style.css'
 
-createApp(App).use(createPinia()).use(router).component('VueUiXy', VueUiXy).mount('#app')
+const app = createApp(App)
+
+app.component('VueUiDonut', VueUiDonut)
+app.component('VueUiXy', VueUiXy)
+
+app.use(createPinia())
+app.use(router)
+app.use(i18n)
+
+app.mount('#app')
