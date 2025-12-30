@@ -24,15 +24,15 @@
 
             <!-- 数据表格 -->
             <n-data-table :columns="section.columns" :data="section.data" :bordered="false" :single-line="false"
-                class="mb-6" />
+                class="mb-6" :row-key="(row) => row.id || row.ID" :scroll-x="section.scrollX || 1000" />
 
             <!-- 代码示例 -->
             <div v-if="section.codeExample" class="bg-gray-50 rounded-lg border border-gray-200 overflow-hidden">
                 <div class="px-4 py-2 bg-gray-100 border-b border-gray-200 text-xs font-mono text-gray-500">
-                    JSON Example
+                    Code Example
                 </div>
                 <n-config-provider :hljs="hljs">
-                    <n-code :code="section.codeExample" language="json" class="p-4 text-sm" />
+                    <n-code :code="section.codeExample" language="json" class="p-4 text-sm" word-wrap />
                 </n-config-provider>
             </div>
         </div>

@@ -2,10 +2,10 @@ export default {
     nav: {
         home: '主页',
         data: '数据',
-        data_choice: '选择题',
-        data_qa: '问答对',
-        data_vqa: '视觉问答对',
-        data_video: '视频',
+        // data_choice: '选择题',
+        data_qa: 'AcupunctureQA',
+        data_vqa: 'AcupunctureVQA',
+        data_video: 'AcupunctureVideo',
         leaderboard: '排行榜',
         github: 'GitHub'
     },
@@ -18,19 +18,24 @@ export default {
         stats: {
             choice_count: '选择题数量',
             qa_count: '问答对数量',
+            vqa_count: '视觉问答对数量',
             video_count: '视频数量'
         },
         intro: {
-            title: '关于 TCM Benchmark',
-            content: 'TCM Benchmark 是一个致力于推动中医人工智能发展的综合性评测基准平台。我们整合了海量的中医文献、临床医案、医学试题及多模态数据，旨在为大语言模型提供全方位、多层次的能力评估。通过标准化的评测体系，我们期望能够客观反映模型在中医理论理解、临床辅助诊疗、方剂推荐等核心任务上的表现，促进中医与现代人工智能技术的深度融合与创新发展。'
+            title: '关于 AcupunctureEval',
+            content: 'AcupunctureEval 是一个致力于推动中医针灸领域人工智能发展的综合性评测基准平台。我们整合了海量的中医针灸文献、临床医案、医学试题及多模态数据，旨在为大语言模型提供全方位、多层次的能力评估。通过标准化的评测体系，我们期望能够客观反映模型在中医针灸理论理解、临床辅助诊疗等核心任务上的表现，促进中医针灸与现代人工智能技术的深度融合与创新发展。'
         },
         images: {
-            img1_title: '数据集分类',
-            img1_desc: '涵盖中医基础理论、临床各科、方剂学等多维度数据分类体系。',
-            img2_title: '穴位分类',
-            img2_desc: '基于标准经络穴位图谱的精细化视觉识别与定位任务。',
-            img3_title: '验证与测试',
-            img3_desc: '科学严谨的训练、验证与测试数据集划分，确保评测结果的公正性。'
+            val_test_title: 'AcupunctureQA客观题分类',
+            val_test_desc: '客观题数据来源于教科书，其共有1735个样本涵盖经络腧穴、刺灸和中医病症三大类；其分为1516个样本的验证集与219个样本的测试集。每一类数据集中都包含A1、A2、A3、A4、B与X型题',
+            dataset_classify_title: 'AcupunctureQA主观题分类',
+            dataset_classify_desc: '主观题共有19841个样本，涵盖四大主要领域：针灸、中医证候、艾灸和穴位',
+            vqa_classify_title: 'AcupunctureVQA客观题分类',
+            vqa_classify_desc: 'AcupunctureVQA客观题共有996个样本，分为单选题、多选题、针灸操作题、穴位定位题',
+            xuewei_classify_title: '人体穴位分类',
+            xuewei_classify_desc: '在视频数据中共涉及到人体的20种穴位，主要的有血海穴、阳陵泉穴、阴陵泉穴和足三里穴',
+            pig_xuewei_title: '猪体穴位分类',
+            pig_xuewei_desc: '在视频数据中共涉及到猪体7种穴位，分别是',
         },
         charts: {
             chart1_title: '数据集分布概览',
@@ -39,11 +44,10 @@ export default {
     },
     datasets: {
         index: {
-            browse_desc: '浏览与检索 {type} 相关的数据集资源。',
-            label_choice: '选择题',
-            label_qa: '问答对',
-            label_vqa: '视觉问答',
-            label_video: '视频'
+            // browse_desc: '浏览与检索 {type} 相关的数据集资源。',
+            label_qa: 'AcupunctureQA',
+            label_vqa: 'AcupunctureVQA',
+            label_video: 'AcupunctureVideo'
         },
         columns: {
             id: 'ID',
@@ -56,10 +60,20 @@ export default {
             option_e: '选项 E',
             image: '图片',
             options_answer: '选项/答案',
+            options: '选项',
+            acupoint_name: '穴位名称',
             video_title: '视频标题',
             duration: '时长',
             category: '分类',
-            description: '描述'
+            description: '描述',
+            shared_query: '共享题干',
+            shared_option: '共享选项',
+            diagnose: '诊断',
+            syndromes: '证型',
+            therapy: '治法',
+            prescription: '处方',
+            prescription_meaning: '方义',
+            operation: '操作'
         },
         choice: {
             a1: {
@@ -88,34 +102,41 @@ export default {
             }
         },
         qa: {
+            desc: 'AcupunctureQA包含客观选择题、主观问答题和病例分析题三部分。客观题和病例分析题的数据来源于教科书，而非零散的互联网题库，从而保证了数据的质量。其中，客观题有1735个样本，涵盖经络腧穴、针灸和中医病症三大类；病例分析题有100个样本，包含病例的病因病机等七个维度。主观问答题含有45,962个问答对样本，涵盖四大主要领域：针灸、中医证候、艾灸和推拿。',
             tcm: {
-                title: 'TCM 问答对',
-                desc: '中医理论与临床知识的问答数据集。'
+                title: '中医疾病问答对',
+                desc: '中医疾病问答对数据集共涵盖4个科室与108种疾病'
             },
             acu: {
-                title: 'ACU 问答对 (针灸)',
-                desc: '专注于针灸领域的专业问答数据。'
+                title: '针灸领域问答对',
+                desc: '针灸领域问答对数据集共包含20841条数据，其中针灸5205条数据、艾灸644条数据、穴位12576条数据和推拿1416条数据'
             },
             mra: {
-                title: 'MRA 问答对 (病案分析)',
-                desc: '基于真实临床病案的分析与诊断问答。'
+                title: '病例分析问答对',
+                desc: '病例分析题有100个样本包含病例的病因病机等七个纬度'
             }
         },
         vqa: {
-            type1: {
-                title: 'VQA 第一类题型 (单选/多选)',
+            desc: 'AcupunctureVQA，共构造10729个数据样本，包含图像理解和图像推理两类任务。',
+            single: {
+                title: 'VQA单选题',
                 description: '基于图像的中医诊断与辨识单选或多选题。'
             },
+            multi: {
+                title: 'VQA多选题',
+                description: '基于图像的中医诊断与辨识多选题。'
+            },
             type2: {
-                title: 'VQA 第二类题型 (定位题)',
+                title: 'VQA穴位定位题',
                 description: '穴位与身体部位的精确定位识别。'
             },
             type3: {
-                title: 'VQA 第三类题型 (针灸操作)',
+                title: 'VQA针灸操作题',
                 description: '针灸手法与操作流程的视觉问答。'
             }
         },
         video: {
+            desc: '关于针灸穴位实践操作的视频被构建命名为AcupunctureVideo ，视频共1000个样本并分为三类，第一类是针灸师对人体针灸穴位的标准手法实践操作。第二类是专家在真实临床场景下对患者的实际操作视频，第三类是针灸师对实验猪针灸穴位的标准手法实践操作。',
             section1_title: '操作演示视频 (Video 1)',
             section1_desc: '展示针灸提插捻转的基本手法演示。',
             section2_title: '临床诊疗视频 (Video 2)',

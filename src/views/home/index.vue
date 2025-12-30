@@ -1,7 +1,7 @@
 <template>
     <div class="space-y-16 pb-12">
         <!-- 1. 统计区域 -->
-        <section class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <div v-for="(stat, index) in stats" :key="index"
                 class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300 flex items-center gap-4 group">
                 <div
@@ -28,22 +28,41 @@
         </section>
 
         <!-- 3. 图片区域 -->
-        <section class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div v-for="(img, index) in images" :key="index" class="space-y-4 group">
-                <div
-                    class="aspect-[4/3] rounded-lg overflow-hidden shadow-md border border-gray-200 relative bg-gray-50">
-                    <div class="absolute inset-0 bg-gray-100 animate-pulse z-10" v-if="!img.loaded"></div>
-                    <n-image :src="img.src" :alt="t(img.titleKey)" object-fit="cover"
-                        class="w-full h-full flex justify-center items-center"
-                        :img-props="{ class: 'w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500 cursor-zoom-in' }"
-                        :intersection-observer-options="{ rootMargin: '50px' }" lazy @load="img.loaded = true" />
+        <section class="select-none relative group/carousel">
+            <n-carousel autoplay draggable :interval="3000" :slides-per-view="slidesPerView" :space-between="32"
+                effect="slide" class="pb-12" dot-type="line">
+                <div v-for="(img, index) in images" :key="index" class="h-full">
+                    <div class="space-y-4 group h-full px-1">
+                        <div
+                            class="aspect-[4/3] rounded-lg overflow-hidden shadow-md border border-gray-200 relative bg-gray-50">
+                            <div class="absolute inset-0 bg-gray-100 animate-pulse z-10" v-if="!img.loaded"></div>
+                            <n-image :src="img.src" :alt="t(img.titleKey)" object-fit="cover"
+                                class="w-full h-full flex justify-center items-center"
+                                :img-props="{ class: 'w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500 cursor-zoom-in' }"
+                                :intersection-observer-options="{ rootMargin: '50px' }" lazy
+                                @load="img.loaded = true" />
+                        </div>
+                        <div class="text-center px-2">
+                            <h3
+                                class="text-lg font-bold text-gray-900 mb-2 group-hover:text-teal-600 transition-colors">
+                                {{ t(img.titleKey) }}
+                            </h3>
+                            <p class="text-sm text-gray-500 leading-relaxed">{{ t(img.descKey) }}</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="text-center px-2">
-                    <h3 class="text-lg font-bold text-gray-900 mb-2 group-hover:text-teal-600 transition-colors">{{
-                        t(img.titleKey) }}</h3>
-                    <p class="text-sm text-gray-500 leading-relaxed">{{ t(img.descKey) }}</p>
-                </div>
-            </div>
+
+
+                <!-- 自定义指示点样式 -->
+                <template #dots="{ total, currentIndex, to }">
+                    <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 flex space-x-2">
+                        <div v-for="index in total" :key="index"
+                            :class="['h-1.5 rounded-full transition-all duration-300 cursor-pointer', currentIndex === index - 1 ? 'w-8 bg-teal-600' : 'w-2 bg-gray-300 hover:bg-gray-400']"
+                            @click="to(index - 1)">
+                        </div>
+                    </div>
+                </template>
+            </n-carousel>
         </section>
 
         <!-- 4. 图表区域 -->
@@ -52,7 +71,7 @@
             <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
                 <h3 class="text-xl font-bold text-gray-900 mb-6 border-l-4 border-teal-600 pl-4 relative z-10">{{
                     t('home.charts.chart1_title') }}</h3>
-                <div class="w-full h-[400px] flex items-center justify-center">
+                <div class="w-full h-[500px] flex items-center justify-center">
                     <VueUiDonut :dataset="datasetDistribution" :config="donutConfig" />
                 </div>
             </div>
@@ -61,7 +80,7 @@
             <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
                 <h3 class="text-xl font-bold text-gray-900 mb-6 border-l-4 border-teal-600 pl-4 relative z-10">{{
                     t('home.charts.chart2_title') }}</h3>
-                <div class="w-full h-[400px] flex items-center justify-center">
+                <div class="w-full h-[500px] flex items-center justify-center">
                     <VueUiXy :dataset="subjectDistribution" :config="xyConfig" />
                 </div>
             </div>
@@ -70,28 +89,52 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { FileText, MessageCircle, Video } from 'lucide-vue-next'
 
 const { t } = useI18n()
 
+// 响应式轮播图显示数量
+const slidesPerView = ref(3)
+const updateSlidesPerView = () => {
+    const width = window.innerWidth
+    if (width < 640) {
+        slidesPerView.value = 1
+    } else if (width < 1024) {
+        slidesPerView.value = 2
+    } else {
+        slidesPerView.value = 3
+    }
+}
+
+onMounted(() => {
+    updateSlidesPerView()
+    window.addEventListener('resize', updateSlidesPerView)
+})
+
+onUnmounted(() => {
+    window.removeEventListener('resize', updateSlidesPerView)
+})
+
 // 1. 统计数据
 const stats = ref([
     {
-        labelKey: 'home.stats.choice_count',
-        value: 11200,
+        labelKey: 'home.stats.qa_count',
+        value: 47797,
+        // suffix: '+',
         icon: FileText
     },
     {
-        labelKey: 'home.stats.qa_count',
-        value: 45000,
-        suffix: '+',
+        labelKey: 'home.stats.vqa_count',
+        value: 10729,
+        // suffix: '+',
         icon: MessageCircle
     },
     {
         labelKey: 'home.stats.video_count',
-        value: 120,
+        value: 1000,
+        suffix: '+',
         icon: Video
     }
 ])
@@ -99,32 +142,45 @@ const stats = ref([
 // 3. 图片数据
 const images = ref([
     {
+        src: '/val_test.png',
+        titleKey: 'home.images.val_test_title',
+        descKey: 'home.images.val_test_desc',
+        loaded: false
+    },
+    {
         src: '/dataset_classify.png',
-        titleKey: 'home.images.img1_title',
-        descKey: 'home.images.img1_desc',
+        titleKey: 'home.images.dataset_classify_title',
+        descKey: 'home.images.dataset_classify_desc',
+        loaded: false
+    },
+    {
+        src: '/vqa_classify.png',
+        titleKey: 'home.images.vqa_classify_title',
+        descKey: 'home.images.vqa_classify_desc',
         loaded: false
     },
     {
         src: '/xuewei_classify.png',
-        titleKey: 'home.images.img2_title',
-        descKey: 'home.images.img2_desc',
+        titleKey: 'home.images.xuewei_classify_title',
+        descKey: 'home.images.xuewei_classify_desc',
         loaded: false
     },
     {
-        src: '/val_test.png',
-        titleKey: 'home.images.img3_title',
-        descKey: 'home.images.img3_desc',
+        src: '/pig_xuewei.png',
+        titleKey: 'home.images.pig_xuewei_title',
+        descKey: 'home.images.pig_xuewei_desc',
         loaded: false
     }
+
 ])
 
 // 4. 图表数据与配置
 // 环形图数据（数据集分布）
 const datasetDistribution = ref([
-    { name: 'Choice', values: [11200], color: '#0d9488' },
-    { name: 'QA', values: [38000], color: '#14b8a6' },
-    { name: 'VQA', values: [7000], color: '#5eead4' },
-    { name: 'Video', values: [120], color: '#ccfbf1' }
+    { name: 'QA Object', values: [1735], color: '#0d9488' },
+    { name: 'QA Subject', values: [46062], color: '#14b8a6' },
+    { name: 'VQA', values: [10729], color: '#5eead4' },
+    { name: 'Video', values: [1000], color: '#ccfbf1' }
 ])
 
 const donutConfig = ref({

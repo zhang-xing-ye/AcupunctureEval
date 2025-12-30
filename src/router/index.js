@@ -15,12 +15,6 @@ const router = createRouter({
                     component: () => import('@/views/home/index.vue')
                 },
                 {
-                    path: 'datasets/choice',
-                    name: 'DatasetChoice',
-                    component: () => import('@/views/datasets/index.vue'),
-                    meta: { type: 'choice' }
-                },
-                {
                     path: 'datasets/qa',
                     name: 'DatasetQA',
                     component: () => import('@/views/datasets/index.vue'),

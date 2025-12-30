@@ -10,7 +10,7 @@
                         d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.3.3 0 1 0 .2.3V4a1 1 0 0 1 1 1v5a5 5 0 0 1-10 0V5a1 1 0 0 1 1-1h1.8" />
                 </svg>
             </div>
-            <span class="text-xl font-bold text-gray-800 tracking-tight">TCM Benchmark</span>
+            <span class="text-xl font-bold text-gray-800 tracking-tight">AcupunctureEval</span>
         </div>
 
         <!-- 导航栏 -->
@@ -49,8 +49,7 @@ watch(() => route.path, (path) => {
         activeKey.value = 'home'
     } else if (path.includes('/datasets')) {
         // 找到子路由哪个被激活
-        if (path.includes('choice')) activeKey.value = 'choice'
-        else if (path.includes('qa')) activeKey.value = 'qa'
+        if (path.includes('qa')) activeKey.value = 'qa'
         else if (path.includes('vqa')) activeKey.value = 'vqa'
         else if (path.includes('video')) activeKey.value = 'video'
         else activeKey.value = 'data'
@@ -71,10 +70,6 @@ const menuOptions = computed(() => [
         label: t('nav.data'),
         key: 'data',
         children: [
-            {
-                label: () => h(RouterLink, { to: '/datasets/choice' }, { default: () => t('nav.data_choice') }),
-                key: 'choice'
-            },
             {
                 label: () => h(RouterLink, { to: '/datasets/qa' }, { default: () => t('nav.data_qa') }),
                 key: 'qa'

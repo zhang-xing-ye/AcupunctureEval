@@ -4,11 +4,11 @@
         <div class="mb-8">
             <h1 class="text-3xl font-bold text-gray-900">{{ datasetTitle }}</h1>
             <p class="text-gray-500 mt-2">
-                {{ t('datasets.index.browse_desc', { type: datasetTypeLabel }) }}
+                {{ datasetTypeDesc }}
             </p>
         </div>
 
-        <!-- Dynamic Component Loading -->
+        <!-- 动态加载子视图 -->
         <transition name="fade" mode="out-in">
             <component :is="currentComponent" />
         </transition>
@@ -21,7 +21,6 @@ import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 
 // Import Sub-views
-import ChoiceView from './ChoiceView.vue'
 import QAView from './QAView.vue'
 import VQAView from './VQAView.vue'
 import VideoView from './VideoView.vue'
@@ -31,19 +30,17 @@ const { t } = useI18n()
 
 const datasetType = computed(() => route.meta.type)
 
-const datasetTypeLabel = computed(() => {
+const datasetTypeDesc = computed(() => {
     switch (datasetType.value) {
-        case 'choice': return t('datasets.index.label_choice')
-        case 'qa': return t('datasets.index.label_qa')
-        case 'vqa': return t('datasets.index.label_vqa')
-        case 'video': return t('datasets.index.label_video')
+        case 'qa': return t('datasets.qa.desc')
+        case 'vqa': return t('datasets.vqa.desc')
+        case 'video': return t('datasets.video.desc')
         default: return ''
     }
 })
 
 const datasetTitle = computed(() => {
     switch (datasetType.value) {
-        case 'choice': return t('nav.data_choice')
         case 'qa': return t('nav.data_qa')
         case 'vqa': return t('nav.data_vqa')
         case 'video': return t('nav.data_video')
@@ -53,7 +50,6 @@ const datasetTitle = computed(() => {
 
 const currentComponent = computed(() => {
     switch (datasetType.value) {
-        case 'choice': return ChoiceView
         case 'qa': return QAView
         case 'vqa': return VQAView
         case 'video': return VideoView

@@ -2,10 +2,10 @@ export default {
     nav: {
         home: 'Home',
         data: 'Data',
-        data_choice: 'Multiple Choice',
-        data_qa: 'QA',
-        data_vqa: 'VQA',
-        data_video: 'Video',
+        // data_choice: 'AcupunctureMultiple Choice',
+        data_qa: 'AcupunctureQA',
+        data_vqa: 'AcupunctureVQA',
+        data_video: 'AcupunctureVideo',
         leaderboard: 'Leaderboard',
         github: 'GitHub'
     },
@@ -18,19 +18,24 @@ export default {
         stats: {
             choice_count: 'Choice Questions',
             qa_count: 'QA Pairs',
+            vqa_count: 'VQA Pairs',
             video_count: 'Videos'
         },
         intro: {
-            title: 'About TCM Benchmark',
-            content: 'TCM Benchmark is a comprehensive evaluation platform dedicated to advancing Artificial Intelligence in Traditional Chinese Medicine (TCM). We integrate massive amounts of TCM literature, clinical cases, medical examinations, and multimodal data to provide a holistic and multi-level assessment of Large Language Models. Through a standardized evaluation system, we aim to objectively reflect model performance in core tasks such as TCM theory understanding, clinical auxiliary diagnosis, and prescription recommendation, fostering the deep integration and innovative development of TCM and modern AI technologies.'
+            title: 'About AcupunctureEval',
+            content: 'AcupunctureEval is a comprehensive evaluation benchmark platform dedicated to advancing the development of Artificial Intelligence in the field of TCM Acupuncture. We integrate massive amounts of TCM acupuncture literature, clinical cases, medical examinations, and multimodal data to provide a holistic and multi-level capability assessment for Large Language Models. Through a standardized evaluation system, we aim to objectively reflect model performance in core tasks such as TCM acupuncture theory understanding and clinical auxiliary diagnosis, fostering the deep integration and innovative development of TCM acupuncture and modern AI technologies.'
         },
         images: {
-            img1_title: 'Dataset Classification',
-            img1_desc: 'Covering multi-dimensional data classification systems including TCM basic theory, clinical specialties, and prescription science.',
-            img2_title: 'Acupoint Classification',
-            img2_desc: 'Fine-grained visual recognition and localization tasks based on standard meridian acupoint charts.',
-            img3_title: 'Validation & Testing',
-            img3_desc: 'Scientifically rigorous division of training, validation, and test datasets to ensure the fairness of evaluation results.'
+            val_test_title: 'AcupunctureQA Objective Questions Classification',
+            val_test_desc: 'The objective question data originates from textbooks, totaling 1,735 samples covering three major categories: Meridians and Acupoints, Acupuncture and Moxibustion, and TCM Syndromes. It is divided into a validation set of 1,516 samples and a test set of 219 samples. Each category includes question types A1, A2, A3, A4, B, and X.',
+            dataset_classify_title: 'AcupunctureQA Subjective Questions Classification',
+            dataset_classify_desc: 'There are 19,841 subjective question samples, covering four main domains: Acupuncture, TCM Syndromes, Moxibustion, and Acupoints.',
+            vqa_classify_title: 'AcupunctureVQA Objective Questions Classification',
+            vqa_classify_desc: 'AcupunctureVQA objective questions consist of 996 samples, categorized into Single Choice, Multiple Choice, Acupuncture Manipulation, and Acupoint Localization.',
+            xuewei_classify_title: 'Human Acupoint Classification',
+            xuewei_classify_desc: 'The video data involves 20 types of human acupoints, mainly including Xuehai, Yanglingquan, Yinlingquan, and Zusanli.',
+            pig_xuewei_title: 'Pig Acupoint Classification',
+            pig_xuewei_desc: 'The video data involves 7 types of pig acupoints, specifically',
         },
         charts: {
             chart1_title: 'Dataset Distribution Overview',
@@ -39,11 +44,10 @@ export default {
     },
     datasets: {
         index: {
-            browse_desc: 'Browse and search datasets related to {type}.',
-            label_choice: 'Choice',
-            label_qa: 'QA',
-            label_vqa: 'VQA',
-            label_video: 'Video'
+            // browse_desc: 'Browse and search datasets related to {type}.',
+            label_qa: 'AcupunctureQA',
+            label_vqa: 'AcupunctureVQA',
+            label_video: 'AcupunctureVideo'
         },
         columns: {
             id: 'ID',
@@ -56,10 +60,20 @@ export default {
             option_e: 'Option E',
             image: 'Image',
             options_answer: 'Options/Answer',
+            options: 'Options',
+            acupoint_name: 'Acupoint Name',
             video_title: 'Video Title',
             duration: 'Duration',
             category: 'Category',
-            description: 'Description'
+            description: 'Description',
+            shared_query: 'Shared Case',
+            shared_option: 'Shared Options',
+            diagnose: 'Diagnosis',
+            syndromes: 'Syndromes',
+            therapy: 'Therapy',
+            prescription: 'Prescription',
+            prescription_meaning: 'Prescription Analysis',
+            operation: 'Operation'
         },
         choice: {
             a1: {
@@ -102,20 +116,26 @@ export default {
             }
         },
         vqa: {
-            type1: {
-                title: 'VQA Type 1 (Single/Multiple Choice)',
-                description: 'Image-based TCM diagnosis and identification questions.'
+            desc: 'AcupunctureVQA, with a total of 10,729 data samples, includes two types of tasks: image understanding and image reasoning.',
+            single: {
+                title: 'VQA Single Choice',
+                description: 'Image-based TCM diagnosis and identification single or multiple choice questions.'
+            },
+            multi: {
+                title: 'VQA Multiple Choice',
+                description: 'Image-based TCM diagnosis and identification multiple choice questions.'
             },
             type2: {
-                title: 'VQA Type 2 (Localization)',
+                title: 'VQA Localization',
                 description: 'Precise localization and identification of acupoints and body parts.'
             },
             type3: {
-                title: 'VQA Type 3 (Acupuncture Operation)',
+                title: 'VQA Acupuncture Operation',
                 description: 'Visual QA for acupuncture techniques and operation procedures.'
             }
         },
         video: {
+            desc: 'The AcupunctureVideo dataset, constructed for practical acupuncture point operations, consists of 1,000 samples divided into three categories: the first category features standard practical operation demonstrations by acupuncturists on human acupuncture points; the second category contains videos of experts performing actual operations on patients in real clinical scenarios; the third category features standard practical operation demonstrations by acupuncturists on experimental pig acupuncture points.',
             section1_title: 'Operation Demo (Video 1)',
             section1_desc: 'Demonstration of basic acupuncture techniques.',
             section2_title: 'Clinical Diagnosis (Video 2)',
