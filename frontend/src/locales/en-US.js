@@ -7,6 +7,7 @@ export default {
         data_vqa: 'AcupunctureVQA',
         data_video: 'AcupunctureVideo',
         leaderboard: 'Leaderboard',
+        evaluate: 'Evaluate',
         github: 'GitHub'
     },
     common: {
@@ -147,22 +148,61 @@ export default {
         title: 'Model Leaderboard',
         description: 'Ranking of large models on various TCM tasks.',
         tabs: {
-            overall: 'Overall',
-            choice: 'Choice',
-            qa: 'QA',
-            vqa: 'VQA',
-            video: 'Video'
+            qa_objective: 'QA Objective Leaderboard',
+            vqa: 'VQA Leaderboard'
         },
         columns: {
             rank: 'Rank',
             model: 'Model',
-            score: 'Avg Score',
-            choice_score: 'Choice',
-            qa_score: 'QA',
-            vqa_score: 'VQA',
-            video_score: 'Video',
-            params: 'Params',
-            org: 'Organization'
+            average: 'Average',
+            a1: 'A1',
+            a2: 'A2',
+            a3: 'A3',
+            a4: 'A4',
+            b: 'B',
+            x: 'X',
+            single_choice: 'Single Choice',
+            multiple_choice: 'Multiple Choice',
+            localization: 'Localization',
+            operation: 'Operation'
         }
+    },
+    evaluate: {
+        title: 'Model Evaluation',
+        description: 'Upload your model predictions for evaluation.',
+        qa_title: 'QA Objective Evaluation',
+        vqa_title: 'VQA Evaluation',
+        upload_guide: 'Please upload prediction files in JSON format.',
+        upload_button: 'Select Files',
+        submit_button: 'Start Evaluation',
+        submitting: 'Evaluating...',
+        success_message: 'Evaluation submitted successfully!',
+        llm_name_label: 'Model Name',
+        llm_name_placeholder: 'Enter model name',
+        llm_org_label: 'Organization',
+        llm_org_placeholder: 'Enter organization name (optional)',
+        error_file_type: 'Only JSON files are allowed',
+        error_no_file: 'Please upload files first',
+        qa_instruction: 'Please upload the following 6 JSON prediction files separately.',
+        vqa_instruction: 'Please upload the following 4 JSON prediction files separately.',
+        wait_upload: 'Please wait for all files to finish uploading',
+        file_types: {
+            qa: {
+                a1: 'Type A1',
+                a2: 'Type A2',
+                a3: 'Type A3',
+                a4: 'Type A4',
+                b: 'Type B',
+                x: 'Type X'
+            },
+            vqa: {
+                single: 'Single Choice',
+                multi: 'Multiple Choice',
+                localization: 'Localization',
+                operation: 'Operation'
+            }
+        },
+        missing_files: 'Missing files: {files}',
+        upload_success: 'File {name} uploaded successfully'
     }
 }

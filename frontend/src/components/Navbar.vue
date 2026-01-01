@@ -55,6 +55,8 @@ watch(() => route.path, (path) => {
         else activeKey.value = 'data'
     } else if (path.includes('/leaderboard')) {
         activeKey.value = 'leaderboard'
+    } else if (path.includes('/evaluate')) {
+        activeKey.value = 'evaluate'
     } else {
         activeKey.value = null
     }
@@ -87,6 +89,10 @@ const menuOptions = computed(() => [
     {
         label: () => h(RouterLink, { to: '/leaderboard' }, { default: () => t('nav.leaderboard') }),
         key: 'leaderboard',
+    },
+    {
+        label: () => h(RouterLink, { to: '/evaluate' }, { default: () => t('nav.evaluate') }),
+        key: 'evaluate',
     },
     {
         label: () => h('a', { href: 'https://github.com/your-repo', target: '_blank', rel: 'noopener noreferrer', class: 'flex items-center gap-1' }, {

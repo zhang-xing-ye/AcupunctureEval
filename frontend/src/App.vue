@@ -1,5 +1,5 @@
 <script setup>
-import { zhCN, dateZhCN } from 'naive-ui'
+import { zhCN, dateZhCN, NConfigProvider, NMessageProvider, NDialogProvider, NNotificationProvider, NLoadingBarProvider } from 'naive-ui'
 import { reactive, ref } from 'vue';
 const locale = ref(null);
 const dateLocale = ref(null);
@@ -9,7 +9,15 @@ const dateLocale = ref(null);
 
 <template>
   <n-config-provider :locale="zhCN" :date-locale="dateZhCN">
-    <RouterView></RouterView>
+    <n-loading-bar-provider>
+      <n-message-provider>
+        <n-dialog-provider>
+          <n-notification-provider>
+            <RouterView></RouterView>
+          </n-notification-provider>
+        </n-dialog-provider>
+      </n-message-provider>
+    </n-loading-bar-provider>
   </n-config-provider>
 </template>
 

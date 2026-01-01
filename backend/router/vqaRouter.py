@@ -95,8 +95,6 @@ def calculate_accuracy(predictions: List[Dict[str, Any]], ground_truth: List[Dic
     :param mode: 'single' 或 'multi'
     :return: 准确率 (0.0 - 1.0)
     """
-    if not isinstance(predictions, list):
-        raise HTTPException(status_code=400, detail="Uploaded file content must be a JSON list.")
     
     total_count = len(ground_truth)
     if total_count == 0:
@@ -109,7 +107,7 @@ def calculate_accuracy(predictions: List[Dict[str, Any]], ground_truth: List[Dic
     # 否则按顺序匹配（假设顺序一致）
     
     # 标准答案映射
-    gt_map = {str(item.get('ID')): item.get('Answer') for item in ground_truth if 'ID' in item}
+    # gt_map = {str(item.get('ID')): item.get('Answer') for item in ground_truth if 'ID' in item}
     
     # 检查预测结果是否包含 ID
     has_id = any('ID' in p or 'id' in p for p in predictions)
@@ -277,4 +275,8 @@ async def get_all_data(skip: int = 0, limit: int = 20, db: Session = Depends(get
     获取qa数据表中所有记录，支持分页。
     """
     records = vqa_leaderboard_dao.get_all_sorted_by_score(db, skip=skip, limit=limit)
-    return records
+    total = vqa_leaderboard_dao.get_total_count(db)
+    return {
+        "total": total,
+        "items": records
+    }

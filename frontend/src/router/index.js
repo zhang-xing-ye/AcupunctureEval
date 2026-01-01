@@ -36,6 +36,11 @@ const router = createRouter({
                     path: 'leaderboard',
                     name: 'Leaderboard',
                     component: () => import('@/views/leaderboard/index.vue')
+                },
+                {
+                    path: 'evaluate',
+                    name: 'Evaluate',
+                    component: () => import('@/views/evaluate/index.vue')
                 }
             ]
         }

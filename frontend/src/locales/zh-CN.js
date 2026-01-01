@@ -7,6 +7,7 @@ export default {
         data_vqa: 'AcupunctureVQA',
         data_video: 'AcupunctureVideo',
         leaderboard: '排行榜',
+        evaluate: '评估',
         github: 'GitHub'
     },
     common: {
@@ -148,22 +149,61 @@ export default {
         title: '模型排行榜',
         description: '展示各大模型在中医各个任务上的性能表现排名。',
         tabs: {
-            overall: '总榜',
-            choice: '选择题',
-            qa: '问答对',
-            vqa: '视觉问答',
-            video: '视频理解'
+            qa_objective: 'QA客观题排行榜',
+            vqa: 'VQA排行榜'
         },
         columns: {
             rank: '排名',
             model: '模型名称',
-            score: '平均分',
-            choice_score: '选择题',
-            qa_score: '问答',
-            vqa_score: '视觉问答',
-            video_score: '视频',
-            params: '参数量',
-            org: '机构'
+            average: '平均分',
+            a1: 'A1',
+            a2: 'A2',
+            a3: 'A3',
+            a4: 'A4',
+            b: 'B',
+            x: 'X',
+            single_choice: '单选题',
+            multiple_choice: '多选题',
+            localization: '定位题',
+            operation: '操作题'
         }
+    },
+    evaluate: {
+        title: '模型评估',
+        description: '上传您的模型预测结果进行评估。',
+        qa_title: 'QA 客观题评估',
+        vqa_title: 'VQA 评估',
+        upload_guide: '请上传 JSON 格式的预测结果文件。',
+        upload_button: '选择文件',
+        submit_button: '开始评估',
+        submitting: '评估中...',
+        success_message: '评估提交成功！',
+        llm_name_label: '模型名称',
+        llm_name_placeholder: '请输入模型名称',
+        llm_org_label: '所属组织',
+        llm_org_placeholder: '请输入组织名称 (可选)',
+        error_file_type: '只能上传 JSON 文件',
+        error_no_file: '请先上传文件',
+        qa_instruction: '请分别上传以下6个类型的 JSON 预测结果文件。',
+        vqa_instruction: '请分别上传以下4个类型的 JSON 预测结果文件。',
+        wait_upload: '请等待所有文件上传完成',
+        file_types: {
+            qa: {
+                a1: 'A1型题',
+                a2: 'A2型题',
+                a3: 'A3型题',
+                a4: 'A4型题',
+                b: 'B型题',
+                x: 'X型题'
+            },
+            vqa: {
+                single: '单选题',
+                multi: '多选题',
+                localization: '定位题',
+                operation: '操作题'
+            }
+        },
+        missing_files: '缺少文件: {files}',
+        upload_success: '文件 {name} 上传成功'
     }
 }

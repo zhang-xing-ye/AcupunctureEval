@@ -9,29 +9,14 @@
         <!-- Tabs & Content -->
         <n-tabs type="segment" animated size="large" class="custom-tabs" justify-content="center"
             @update:value="handleTabChange">
-            <n-tab-pane name="overall" :tab="t('leaderboard.tabs.overall')">
+            <n-tab-pane name="qa_objective" :tab="t('leaderboard.tabs.qa_objective')">
                 <div class="mt-6">
-                    <LeaderboardTable :columns="overallColumns" :data="overallData" />
-                </div>
-            </n-tab-pane>
-            <n-tab-pane name="choice" :tab="t('leaderboard.tabs.choice')">
-                <div class="mt-6">
-                    <LeaderboardTable :columns="choiceColumns" :data="choiceData" />
-                </div>
-            </n-tab-pane>
-            <n-tab-pane name="qa" :tab="t('leaderboard.tabs.qa')">
-                <div class="mt-6">
-                    <LeaderboardTable :columns="qaColumns" :data="qaData" />
+                    <LeaderboardTable :columns="qaObjectiveColumns" :data="qaObjectiveData" />
                 </div>
             </n-tab-pane>
             <n-tab-pane name="vqa" :tab="t('leaderboard.tabs.vqa')">
                 <div class="mt-6">
-                    <LeaderboardTable :columns="vqaColumns" :data="vqaData" />
-                </div>
-            </n-tab-pane>
-            <n-tab-pane name="video" :tab="t('leaderboard.tabs.video')">
-                <div class="mt-6">
-                    <LeaderboardTable :columns="videoColumns" :data="videoData" />
+                    <LeaderboardTable :columns="vqaColumns" :data="vqaData" :pagination="pagination" />
                 </div>
             </n-tab-pane>
         </n-tabs>
@@ -39,14 +24,16 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import { useI18n } from 'vue-i18n'
-import { NTabs, NTabPane } from 'naive-ui'
+import { NTabs, NTabPane, useMessage } from 'naive-ui'
 import LeaderboardTable from './components/LeaderboardTable.vue'
+import { getVqaLeaderboard } from '@/api/vqaLeaderboard'
 
 const { t } = useI18n()
+const message = useMessage()
 
-// --- Mock Data Generator ---
+// --- Mock Data Generator for QA ---
 const generateData = (type) => {
     const models = [
         { name: 'TCM-LLM-Pro', org: 'TCM-AI Lab', params: '72B' },
@@ -62,29 +49,74 @@ const generateData = (type) => {
     ]
 
     return models.map((model, index) => {
-        // Generate random scores based on rank slightly to simulate realistic data
         const baseScore = 90 - (index * 2.5) + (Math.random() * 2)
 
-        return {
-            rank: index + 1,
-            model: model.name,
-            org: model.org,
-            params: model.params,
-            score: baseScore.toFixed(1),
-            choice_score: (baseScore + Math.random() * 5 - 2).toFixed(1),
-            qa_score: (baseScore + Math.random() * 5 - 2).toFixed(1),
-            vqa_score: (baseScore - 10 + Math.random() * 5).toFixed(1), // VQA usually harder
-            video_score: (baseScore - 15 + Math.random() * 5).toFixed(1) // Video usually hardest
+        if (type === 'qa_objective') {
+            const a1 = (baseScore + Math.random() * 5 - 2).toFixed(1)
+            const a2 = (baseScore + Math.random() * 5 - 2).toFixed(1)
+            const a3 = (baseScore + Math.random() * 5 - 2).toFixed(1)
+            const a4 = (baseScore + Math.random() * 5 - 2).toFixed(1)
+            const b = (baseScore + Math.random() * 5 - 2).toFixed(1)
+            const x = (baseScore + Math.random() * 5 - 2).toFixed(1)
+            // Calculate actual average
+            const avg = (parseFloat(a1) + parseFloat(a2) + parseFloat(a3) + parseFloat(a4) + parseFloat(b) + parseFloat(x)) / 6
+
+            return {
+                rank: index + 1,
+                model: model.name,
+                a1,
+                a2,
+                a3,
+                a4,
+                b,
+                x,
+                average: avg.toFixed(1)
+            }
         }
     })
 }
 
 // Data for each tab
-const overallData = generateData('overall')
-const choiceData = generateData('choice').sort((a, b) => b.choice_score - a.choice_score).map((item, index) => ({ ...item, rank: index + 1 }))
-const qaData = generateData('qa').sort((a, b) => b.qa_score - a.qa_score).map((item, index) => ({ ...item, rank: index + 1 }))
-const vqaData = generateData('vqa').sort((a, b) => b.vqa_score - a.vqa_score).map((item, index) => ({ ...item, rank: index + 1 }))
-const videoData = generateData('video').sort((a, b) => b.video_score - a.video_score).map((item, index) => ({ ...item, rank: index + 1 }))
+const qaObjectiveData = ref(generateData('qa_objective').sort((a, b) => b.average - a.average).map((item, index) => ({ ...item, rank: index + 1 })))
+const vqaData = ref([])
+const pagination = ref({
+    page: 1,
+    pageSize: 10,
+    itemCount: 0,
+    onChange: (page) => {
+        pagination.value.page = page
+        fetchVqaData()
+    },
+    onUpdatePageSize: (pageSize) => {
+        pagination.value.pageSize = pageSize
+        pagination.value.page = 1
+        fetchVqaData()
+    }
+})
+
+// Fetch VQA Data from API
+const fetchVqaData = async () => {
+    const params = {
+        skip: (pagination.value.page - 1) * pagination.value.pageSize,
+        limit: pagination.value.pageSize
+    }
+    const response = await getVqaLeaderboard(params)
+    // 数据映射
+    vqaData.value = response.items.map((item, index) => ({
+        rank: (pagination.value.page - 1) * pagination.value.pageSize + index + 1,
+        model: item.llm_name,
+        single_choice: (item.type_one_single_score * 100).toFixed(2),
+        multiple_choice: (item.type_one_multi_score * 100).toFixed(2),
+        localization: (item.type_two_score * 100).toFixed(2),
+        operation: (item.type_three_score * 100).toFixed(2),
+        average: (item.avg_score * 100).toFixed(2)
+    }))
+    pagination.value.itemCount = response.total
+}
+
+onMounted(() => {
+    fetchVqaData()
+})
 
 
 // --- Column Definitions (Computed for i18n) ---
@@ -93,38 +125,27 @@ const videoData = generateData('video').sort((a, b) => b.video_score - a.video_s
 const baseColumns = computed(() => [
     { title: t('leaderboard.columns.rank'), key: 'rank', width: 80, align: 'center', sorter: 'default' },
     { title: t('leaderboard.columns.model'), key: 'model', width: 200, ellipsis: { tooltip: true } },
-    { title: t('leaderboard.columns.org'), key: 'org', width: 150, ellipsis: { tooltip: true } },
-    { title: t('leaderboard.columns.params'), key: 'params', width: 120, align: 'center' },
 ])
 
 // Specific columns per tab
-const overallColumns = computed(() => [
+const qaObjectiveColumns = computed(() => [
     ...baseColumns.value,
-    { title: t('leaderboard.columns.score'), key: 'score', width: 100, align: 'center', sorter: (row1, row2) => row1.score - row2.score },
-    { title: t('leaderboard.columns.choice_score'), key: 'choice_score', width: 100, align: 'center', sorter: (row1, row2) => row1.choice_score - row2.choice_score },
-    { title: t('leaderboard.columns.qa_score'), key: 'qa_score', width: 100, align: 'center', sorter: (row1, row2) => row1.qa_score - row2.qa_score },
-    { title: t('leaderboard.columns.vqa_score'), key: 'vqa_score', width: 100, align: 'center', sorter: (row1, row2) => row1.vqa_score - row2.vqa_score },
-    { title: t('leaderboard.columns.video_score'), key: 'video_score', width: 100, align: 'center', sorter: (row1, row2) => row1.video_score - row2.video_score },
-])
-
-const choiceColumns = computed(() => [
-    ...baseColumns.value,
-    { title: t('leaderboard.columns.choice_score'), key: 'choice_score', width: 120, align: 'center', sorter: (row1, row2) => row1.choice_score - row2.choice_score }
-])
-
-const qaColumns = computed(() => [
-    ...baseColumns.value,
-    { title: t('leaderboard.columns.qa_score'), key: 'qa_score', width: 120, align: 'center', sorter: (row1, row2) => row1.qa_score - row2.qa_score }
+    { title: t('leaderboard.columns.a1'), key: 'a1', width: 100, align: 'center', sorter: (row1, row2) => row1.a1 - row2.a1 },
+    { title: t('leaderboard.columns.a2'), key: 'a2', width: 100, align: 'center', sorter: (row1, row2) => row1.a2 - row2.a2 },
+    { title: t('leaderboard.columns.a3'), key: 'a3', width: 100, align: 'center', sorter: (row1, row2) => row1.a3 - row2.a3 },
+    { title: t('leaderboard.columns.a4'), key: 'a4', width: 100, align: 'center', sorter: (row1, row2) => row1.a4 - row2.a4 },
+    { title: t('leaderboard.columns.b'), key: 'b', width: 100, align: 'center', sorter: (row1, row2) => row1.b - row2.b },
+    { title: t('leaderboard.columns.x'), key: 'x', width: 100, align: 'center', sorter: (row1, row2) => row1.x - row2.x },
+    { title: t('leaderboard.columns.average'), key: 'average', width: 100, align: 'center', sorter: (row1, row2) => row1.average - row2.average },
 ])
 
 const vqaColumns = computed(() => [
     ...baseColumns.value,
-    { title: t('leaderboard.columns.vqa_score'), key: 'vqa_score', width: 120, align: 'center', sorter: (row1, row2) => row1.vqa_score - row2.vqa_score }
-])
-
-const videoColumns = computed(() => [
-    ...baseColumns.value,
-    { title: t('leaderboard.columns.video_score'), key: 'video_score', width: 120, align: 'center', sorter: (row1, row2) => row1.video_score - row2.video_score }
+    { title: t('leaderboard.columns.single_choice'), key: 'single_choice', width: 120, align: 'center', sorter: (row1, row2) => row1.single_choice - row2.single_choice },
+    { title: t('leaderboard.columns.multiple_choice'), key: 'multiple_choice', width: 120, align: 'center', sorter: (row1, row2) => row1.multiple_choice - row2.multiple_choice },
+    { title: t('leaderboard.columns.localization'), key: 'localization', width: 120, align: 'center', sorter: (row1, row2) => row1.localization - row2.localization },
+    { title: t('leaderboard.columns.operation'), key: 'operation', width: 120, align: 'center', sorter: (row1, row2) => row1.operation - row2.operation },
+    { title: t('leaderboard.columns.average'), key: 'average', width: 120, align: 'center', sorter: (row1, row2) => row1.average - row2.average },
 ])
 
 const handleTabChange = (value) => {

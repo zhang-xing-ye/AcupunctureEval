@@ -16,13 +16,12 @@ const props = defineProps({
     data: {
         type: Array,
         required: true
+    },
+    pagination: {
+        type: [Object, Boolean],
+        default: () => ({ pageSize: 10 })
     }
 })
-
-// 分页配置
-const pagination = {
-    pageSize: 10
-}
 
 // 行样式：前三名高亮
 const rowClassName = (row, index) => {
