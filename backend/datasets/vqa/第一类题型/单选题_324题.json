@@ -1,0 +1,5186 @@
+[
+  {
+    "ID": "1",
+    "Type": "Image Understanding",
+    "Class": "手太阴腧穴",
+    "Images": [
+      "图3-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 列缺",
+      "B. 云门",
+      "C. 孔最",
+      "D. 经渠"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "2",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 大杼",
+      "B. 眉冲",
+      "C. 天柱",
+      "D. 风门"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "3",
+    "Type": "Image Understanding",
+    "Class": "足厥阴腧穴",
+    "Images": [
+      "图14-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 急脉",
+      "B. 大敦",
+      "C. 阴廉",
+      "D. 章门"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "4",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 承泣",
+      "B. 缺盆",
+      "C. 气舍",
+      "D. 气户"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "5",
+    "Type": "Image Understanding",
+    "Class": "手少阴腧穴",
+    "Images": [
+      "图7-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 青灵",
+      "B. 神门",
+      "C. 少冲",
+      "D. 少府"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "6",
+    "Type": "Image Understanding",
+    "Class": "足厥阴腧穴",
+    "Images": [
+      "图14-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 膝关",
+      "B. 行间",
+      "C. 中都",
+      "D. 蠡沟"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "7",
+    "Type": "Image Understanding",
+    "Class": "足少阴腧穴",
+    "Images": [
+      "图10-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 涌泉",
+      "B. 四满",
+      "C. 肓俞",
+      "D. 中注"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "8",
+    "Type": "Image Understanding",
+    "Class": "手厥阴腧穴",
+    "Images": [
+      "图11-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 中冲",
+      "B. 大陵",
+      "C. 曲泽",
+      "D. 劳宫"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "9",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 关元俞",
+      "B. 眉冲",
+      "C. 大肠俞",
+      "D. 小肠俞"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "10",
+    "Type": "Image Understanding",
+    "Class": "足太阴腧穴",
+    "Images": [
+      "图6-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 三阴交",
+      "B. 大都",
+      "C. 漏谷",
+      "D. 地机"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "11",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-10.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 肩井",
+      "B. 丘墟",
+      "C. 脑空",
+      "D. 风池"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "12",
+    "Type": "Image Understanding",
+    "Class": "手太阳腧穴",
+    "Images": [
+      "图8-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 臑俞",
+      "B. 天宗",
+      "C. 肩贞",
+      "D. 后溪"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "13",
+    "Type": "Image Understanding",
+    "Class": "手少阳腧穴",
+    "Images": [
+      "图12-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 丝竹空",
+      "B. 耳门",
+      "C. 中渚",
+      "D. 耳和髎"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "14",
+    "Type": "Image Understanding",
+    "Class": "足太阴腧穴",
+    "Images": [
+      "图6-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 大都",
+      "B. 三阴交",
+      "C. 漏谷",
+      "D. 大包"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "15",
+    "Type": "Image Understanding",
+    "Class": "手少阳腧穴",
+    "Images": [
+      "图12-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 阳池",
+      "B. 臑会",
+      "C. 消泺",
+      "D. 清冷渊"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "16",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 解溪",
+      "B. 陷谷",
+      "C. 冲阳",
+      "D. 承泣"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "17",
+    "Type": "Image Understanding",
+    "Class": "手太阳腧穴",
+    "Images": [
+      "图8-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 后溪",
+      "B. 天容",
+      "C. 天窗",
+      "D. 肩中俞"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "18",
+    "Type": "Image Understanding",
+    "Class": "手少阳腧穴",
+    "Images": [
+      "图12-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 肩髎",
+      "B. 翳风",
+      "C. 天牖",
+      "D. 阳池"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "19",
+    "Type": "Image Understanding",
+    "Class": "手少阴腧穴",
+    "Images": [
+      "图7-2-4.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 阴郄",
+      "B. 少冲",
+      "C. 通里",
+      "D. 灵道"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "20",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 肓门",
+      "B. 眉冲",
+      "C. 胃仓",
+      "D. 意舍"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "21",
+    "Type": "Image Understanding",
+    "Class": "手太阳腧穴",
+    "Images": [
+      "图8-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 腕骨",
+      "B. 秉风",
+      "C. 肩外俞",
+      "D. 曲垣"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "22",
+    "Type": "Image Understanding",
+    "Class": "足厥阴腧穴",
+    "Images": [
+      "图14-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 蠡沟",
+      "B. 足五里",
+      "C. 阴包",
+      "D. 中封"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "23",
+    "Type": "Image Understanding",
+    "Class": "足太阴腧穴",
+    "Images": [
+      "图6-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 公孙",
+      "B. 地机",
+      "C. 三阴交",
+      "D. 漏谷"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "24",
+    "Type": "Image Understanding",
+    "Class": "手阳明腧穴",
+    "Images": [
+      "图4-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 下廉",
+      "B. 温溜",
+      "C. 偏历",
+      "D. 商阳"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "25",
+    "Type": "Image Understanding",
+    "Class": "足厥阴腧穴",
+    "Images": [
+      "图14-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 行间",
+      "B. 中都",
+      "C. 太冲",
+      "D. 大敦"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "26",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-10.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 日月",
+      "B. 渊腋",
+      "C. 辄筋",
+      "D. 足临泣"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "27",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 厥阴俞",
+      "B. 心俞",
+      "C. 肺俞",
+      "D. 曲差"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "28",
+    "Type": "Image Understanding",
+    "Class": "足太阴腧穴",
+    "Images": [
+      "图6-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 公孙",
+      "B. 漏谷",
+      "C. 大包",
+      "D. 三阴交"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "29",
+    "Type": "Image Understanding",
+    "Class": "足少阴腧穴",
+    "Images": [
+      "图10-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 太溪",
+      "B. 灵墟",
+      "C. 彧中",
+      "D. 神藏"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "30",
+    "Type": "Image Understanding",
+    "Class": "手太阴腧穴",
+    "Images": [
+      "图3-2-4.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 列缺",
+      "B. 少商",
+      "C. 经渠",
+      "D. 太渊"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "31",
+    "Type": "Image Understanding",
+    "Class": "手太阴腧穴",
+    "Images": [
+      "图3-2-4.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 云门",
+      "B. 鱼际",
+      "C. 中府",
+      "D. 少商"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "32",
+    "Type": "Image Understanding",
+    "Class": "足厥阴腧穴",
+    "Images": [
+      "图14-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 膝关",
+      "B. 足五里",
+      "C. 阴包",
+      "D. 中封"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "33",
+    "Type": "Image Understanding",
+    "Class": "手阳明腧穴",
+    "Images": [
+      "图4-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 合谷",
+      "B. 臂臑",
+      "C. 手五里",
+      "D. 阳溪"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "34",
+    "Type": "Image Understanding",
+    "Class": "手少阳腧穴",
+    "Images": [
+      "图12-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 会宗",
+      "B. 耳门",
+      "C. 丝竹空",
+      "D. 耳和髎"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "35",
+    "Type": "Image Understanding",
+    "Class": "手太阳腧穴",
+    "Images": [
+      "图8-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 曲垣",
+      "B. 肩外俞",
+      "C. 肩中俞",
+      "D. 阳谷"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "36",
+    "Type": "Image Understanding",
+    "Class": "手太阳腧穴",
+    "Images": [
+      "图8-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 前谷",
+      "B. 少泽",
+      "C. 后溪",
+      "D. 支正"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "37",
+    "Type": "Image Understanding",
+    "Class": "手少阳腧穴",
+    "Images": [
+      "图12-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 天牖",
+      "B. 肩髎",
+      "C. 翳风",
+      "D. 四渎"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "38",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 承满",
+      "B. 关门",
+      "C. 梁门",
+      "D. 巨髎"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "39",
+    "Type": "Image Understanding",
+    "Class": "手阳明腧穴",
+    "Images": [
+      "图4-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 合谷",
+      "B. 手五里",
+      "C. 臂臑",
+      "D. 温溜"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "40",
+    "Type": "Image Understanding",
+    "Class": "手太阳腧穴",
+    "Images": [
+      "图8-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 颧髎",
+      "B. 天窗",
+      "C. 支正",
+      "D. 天容"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "41",
+    "Type": "Image Understanding",
+    "Class": "足太阴腧穴",
+    "Images": [
+      "图6-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 公孙",
+      "B. 血海",
+      "C. 商丘",
+      "D. 漏谷"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "42",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 仆参",
+      "B. 金门",
+      "C. 曲差",
+      "D. 申脉"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "43",
+    "Type": "Image Understanding",
+    "Class": "手少阳腧穴",
+    "Images": [
+      "图12-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 天井",
+      "B. 翳风",
+      "C. 天牖",
+      "D. 颅息"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "44",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 大杼",
+      "B. 天柱",
+      "C. 五处",
+      "D. 风门"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "45",
+    "Type": "Image Understanding",
+    "Class": "手少阳腧穴",
+    "Images": [
+      "图12-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 角孙",
+      "B. 天井",
+      "C. 耳门",
+      "D. 瘛脉"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "46",
+    "Type": "Image Understanding",
+    "Class": "手少阳腧穴",
+    "Images": [
+      "图12-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 丝竹空",
+      "B. 天井",
+      "C. 关冲",
+      "D. 耳和髎"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "47",
+    "Type": "Image Understanding",
+    "Class": "手阳明腧穴",
+    "Images": [
+      "图4-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 手三里",
+      "B. 二间",
+      "C. 三间",
+      "D. 商阳"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "48",
+    "Type": "Image Understanding",
+    "Class": "手阳明腧穴",
+    "Images": [
+      "图4-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 手三里",
+      "B. 手五里",
+      "C. 臂臑",
+      "D. 合谷"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "49",
+    "Type": "Image Understanding",
+    "Class": "手阳明腧穴",
+    "Images": [
+      "图4-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 手三里",
+      "B. 巨骨",
+      "C. 天鼎",
+      "D. 肩髃"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "50",
+    "Type": "Image Understanding",
+    "Class": "手少阳腧穴",
+    "Images": [
+      "图12-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 四渎",
+      "B. 清冷渊",
+      "C. 三阳络",
+      "D. 会宗"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "51",
+    "Type": "Image Understanding",
+    "Class": "足太阴腧穴",
+    "Images": [
+      "图6-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 血海",
+      "B. 商丘",
+      "C. 公孙",
+      "D. 阴陵泉"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "52",
+    "Type": "Image Understanding",
+    "Class": "足太阴腧穴",
+    "Images": [
+      "图6-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 冲门",
+      "B. 阴陵泉",
+      "C. 箕门",
+      "D. 府舍"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "53",
+    "Type": "Image Understanding",
+    "Class": "足厥阴腧穴",
+    "Images": [
+      "图14-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 急脉",
+      "B. 曲泉",
+      "C. 章门",
+      "D. 膝关"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "54",
+    "Type": "Image Understanding",
+    "Class": "足厥阴腧穴",
+    "Images": [
+      "图14-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 期门",
+      "B. 大敦",
+      "C. 行间",
+      "D. 急脉"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "55",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 上巨虚",
+      "B. 地仓",
+      "C. 足三里",
+      "D. 犊鼻"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "56",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 冲阳",
+      "B. 地仓",
+      "C. 陷谷",
+      "D. 解溪"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "57",
+    "Type": "Image Understanding",
+    "Class": "足少阴腧穴",
+    "Images": [
+      "图10-2-4.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 俞府",
+      "B. 太溪",
+      "C. 然谷",
+      "D. 涌泉"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "58",
+    "Type": "Image Understanding",
+    "Class": "足太阴腧穴",
+    "Images": [
+      "图6-2-4.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 大横",
+      "B. 冲门",
+      "C. 腹结",
+      "D. 府舍"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "59",
+    "Type": "Image Understanding",
+    "Class": "手阳明腧穴",
+    "Images": [
+      "图4-2-4.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 合谷",
+      "B. 曲池",
+      "C. 阳溪",
+      "D. 偏历"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "60",
+    "Type": "Image Understanding",
+    "Class": "足太阴腧穴",
+    "Images": [
+      "图6-2-4.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 箕门",
+      "B. 太白",
+      "C. 隐白",
+      "D. 大都"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "61",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 头维",
+      "B. 梁门",
+      "C. 关门",
+      "D. 承满"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "62",
+    "Type": "Image Understanding",
+    "Class": "足太阴腧穴",
+    "Images": [
+      "图6-2-4.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 箕门",
+      "B. 地机",
+      "C. 漏谷",
+      "D. 阴陵泉"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "63",
+    "Type": "Image Understanding",
+    "Class": "足少阴腧穴",
+    "Images": [
+      "图10-2-4.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 神封",
+      "B. 复溜",
+      "C. 幽门",
+      "D. 步廊"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "64",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-10.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 阳陵泉",
+      "B. 足窍阴",
+      "C. 外丘",
+      "D. 阳交"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "65",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 天柱",
+      "B. 风门",
+      "C. 大杼",
+      "D. 承光"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "66",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 本神",
+      "B. 头临泣",
+      "C. 瞳子髎",
+      "D. 阳白"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "67",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 头维",
+      "B. 上巨虚",
+      "C. 犊鼻",
+      "D. 足三里"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "68",
+    "Type": "Image Understanding",
+    "Class": "手太阳腧穴",
+    "Images": [
+      "图8-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 肩外俞",
+      "B. 后溪",
+      "C. 前谷",
+      "D. 少泽"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "69",
+    "Type": "Image Understanding",
+    "Class": "手太阳腧穴",
+    "Images": [
+      "图8-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 肩中俞",
+      "B. 支正",
+      "C. 小海",
+      "D. 天窗"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "70",
+    "Type": "Image Understanding",
+    "Class": "足少阴腧穴",
+    "Images": [
+      "图10-2-4.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 筑宾",
+      "B. 四满",
+      "C. 气穴",
+      "D. 大赫"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "71",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 关门",
+      "B. 梁门",
+      "C. 承满",
+      "D. 下关"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "72",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 滑肉门",
+      "B. 太乙",
+      "C. 下关",
+      "D. 天枢"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "73",
+    "Type": "Image Understanding",
+    "Class": "手少阳腧穴",
+    "Images": [
+      "图12-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 天牖",
+      "B. 关冲",
+      "C. 液门",
+      "D. 中渚"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "74",
+    "Type": "Image Understanding",
+    "Class": "足少阴腧穴",
+    "Images": [
+      "图10-2-4.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 幽门",
+      "B. 步廊",
+      "C. 筑宾",
+      "D. 神封"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "75",
+    "Type": "Image Understanding",
+    "Class": "足太阴腧穴",
+    "Images": [
+      "图6-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 公孙",
+      "B. 三阴交",
+      "C. 府舍",
+      "D. 商丘"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "76",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 日月",
+      "B. 渊腋",
+      "C. 听会",
+      "D. 辄筋"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "77",
+    "Type": "Image Understanding",
+    "Class": "手阳明腧穴",
+    "Images": [
+      "图4-2-4.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 口禾髎",
+      "B. 肩髃",
+      "C. 迎香",
+      "D. 扶突"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "78",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 膝阳关",
+      "B. 中渎",
+      "C. 风市",
+      "D. 听会"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "79",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 承泣",
+      "B. 内庭",
+      "C. 厉兑",
+      "D. 下关"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "80",
+    "Type": "Image Understanding",
+    "Class": "手阳明腧穴",
+    "Images": [
+      "图4-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 巨骨",
+      "B. 曲池",
+      "C. 手三里",
+      "D. 肘髎"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "81",
+    "Type": "Image Understanding",
+    "Class": "手太阳腧穴",
+    "Images": [
+      "图8-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 肩外俞",
+      "B. 天容",
+      "C. 曲垣",
+      "D. 肩中俞"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "82",
+    "Type": "Image Understanding",
+    "Class": "手阳明腧穴",
+    "Images": [
+      "图4-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 巨骨",
+      "B. 扶突",
+      "C. 口禾髎",
+      "D. 天鼎"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "83",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 库房",
+      "B. 膺窗",
+      "C. 颊车",
+      "D. 屋翳"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "84",
+    "Type": "Image Understanding",
+    "Class": "足少阴腧穴",
+    "Images": [
+      "图10-2-4.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 然谷",
+      "B. 俞府",
+      "C. 阴谷",
+      "D. 涌泉"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "85",
+    "Type": "Image Understanding",
+    "Class": "手阳明腧穴",
+    "Images": [
+      "图4-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 扶突",
+      "B. 二间",
+      "C. 三间",
+      "D. 商阳"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "86",
+    "Type": "Image Understanding",
+    "Class": "手太阳腧穴",
+    "Images": [
+      "图8-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 听宫",
+      "B. 小海",
+      "C. 支正",
+      "D. 肩贞"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "87",
+    "Type": "Image Understanding",
+    "Class": "足少阴腧穴",
+    "Images": [
+      "图10-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 商曲",
+      "B. 阴谷",
+      "C. 阴都",
+      "D. 石关"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "88",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 譩譆",
+      "B. 膏肓",
+      "C. 通天",
+      "D. 神堂"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "89",
+    "Type": "Image Understanding",
+    "Class": "手少阳腧穴",
+    "Images": [
+      "图12-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 液门",
+      "B. 瘛脉",
+      "C. 关冲",
+      "D. 中渚"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "90",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 屋翳",
+      "B. 膺窗",
+      "C. 大迎",
+      "D. 库房"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "91",
+    "Type": "Image Understanding",
+    "Class": "足少阴腧穴",
+    "Images": [
+      "图10-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 涌泉",
+      "B. 横骨",
+      "C. 俞府",
+      "D. 然谷"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "92",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 外陵",
+      "B. 水道",
+      "C. 大迎",
+      "D. 大巨"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "93",
+    "Type": "Image Understanding",
+    "Class": "手阳明腧穴",
+    "Images": [
+      "图4-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 扶突",
+      "B. 巨骨",
+      "C. 迎香",
+      "D. 天鼎"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "94",
+    "Type": "Image Understanding",
+    "Class": "足太阴腧穴",
+    "Images": [
+      "图6-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 府舍",
+      "B. 腹结",
+      "C. 食窦",
+      "D. 大横"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "95",
+    "Type": "Image Understanding",
+    "Class": "手少阳腧穴",
+    "Images": [
+      "图12-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 外关",
+      "B. 耳和髎",
+      "C. 支沟",
+      "D. 阳池"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "96",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 肾俞",
+      "B. 三焦俞",
+      "C. 气海俞",
+      "D. 络却"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "97",
+    "Type": "Image Understanding",
+    "Class": "足少阴腧穴",
+    "Images": [
+      "图10-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 气穴",
+      "B. 彧中",
+      "C. 灵墟",
+      "D. 神藏"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "98",
+    "Type": "Image Understanding",
+    "Class": "足太阴腧穴",
+    "Images": [
+      "图6-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 漏谷",
+      "B. 地机",
+      "C. 胸乡",
+      "D. 阴陵泉"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "99",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-4.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 不容",
+      "B. 缺盆",
+      "C. 乳根",
+      "D. 乳中"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "100",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 膈关",
+      "B. 络却",
+      "C. 阳纲",
+      "D. 魂门"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "101",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 胞肓",
+      "B. 秩边",
+      "C. 络却",
+      "D. 志室"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "102",
+    "Type": "Image Understanding",
+    "Class": "足太阴腧穴",
+    "Images": [
+      "图6-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 公孙",
+      "B. 商丘",
+      "C. 三阴交",
+      "D. 周荣"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "103",
+    "Type": "Image Understanding",
+    "Class": "足少阴腧穴",
+    "Images": [
+      "图10-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 俞府",
+      "B. 涌泉",
+      "C. 四满",
+      "D. 然谷"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "104",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-4.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 伏兔",
+      "B. 梁丘",
+      "C. 阴市",
+      "D. 缺盆"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "105",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 络却",
+      "B. 京骨",
+      "C. 足通谷",
+      "D. 束骨"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "106",
+    "Type": "Image Understanding",
+    "Class": "足少阴腧穴",
+    "Images": [
+      "图10-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 阴谷",
+      "B. 中注",
+      "C. 步廊",
+      "D. 神封"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "107",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-4.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 屋翳",
+      "B. 气舍",
+      "C. 库房",
+      "D. 膺窗"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "108",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 膈俞",
+      "B. 心俞",
+      "C. 督俞",
+      "D. 睛明"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "109",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 睛明",
+      "B. 脾俞",
+      "C. 胆俞",
+      "D. 肝俞"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "110",
+    "Type": "Image Understanding",
+    "Class": "足少阴腧穴",
+    "Images": [
+      "图10-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 照海",
+      "B. 商曲",
+      "C. 大钟",
+      "D. 水泉"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "111",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 睛明",
+      "B. 委中",
+      "C. 委阳",
+      "D. 附分"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "112",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 阳纲",
+      "B. 意舍",
+      "C. 肓门",
+      "D. 睛明"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "113",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 足窍阴",
+      "B. 曲鬓",
+      "C. 侠溪",
+      "D. 本神"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "114",
+    "Type": "Image Understanding",
+    "Class": "足少阴腧穴",
+    "Images": [
+      "图10-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 照海",
+      "B. 大钟",
+      "C. 水泉",
+      "D. 石关"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "115",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 申脉",
+      "B. 睛明",
+      "C. 仆参",
+      "D. 昆仑"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "116",
+    "Type": "Image Understanding",
+    "Class": "足少阴腧穴",
+    "Images": [
+      "图10-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 复溜",
+      "B. 筑宾",
+      "C. 阴都",
+      "D. 交信"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "117",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-4.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 陷谷",
+      "B. 人迎",
+      "C. 冲阳",
+      "D. 解溪"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "118",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 目窗",
+      "B. 承灵",
+      "C. 天冲",
+      "D. 正营"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "119",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-4.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 大迎",
+      "B. 水突",
+      "C. 颊车",
+      "D. 地仓"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "120",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 天冲",
+      "B. 日月",
+      "C. 辄筋",
+      "D. 渊腋"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "121",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-4.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 水突",
+      "B. 天枢",
+      "C. 太乙",
+      "D. 滑肉门"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "122",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 攒竹",
+      "B. 魄户",
+      "C. 膏肓",
+      "D. 神堂"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "123",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-2.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 地五会",
+      "B. 丘墟",
+      "C. 天冲",
+      "D. 足临泣"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "124",
+    "Type": "Image Understanding",
+    "Class": "足少阴腧穴",
+    "Images": [
+      "图10-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 水泉",
+      "B. 步廊",
+      "C. 照海",
+      "D. 大钟"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "125",
+    "Type": "Image Understanding",
+    "Class": "足少阴腧穴",
+    "Images": [
+      "图10-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 肓俞",
+      "B. 商曲",
+      "C. 石关",
+      "D. 步廊"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "126",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-4.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 肝俞",
+      "B. 玉枕",
+      "C. 脾俞",
+      "D. 胆俞"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "127",
+    "Type": "Image Understanding",
+    "Class": "足少阴腧穴",
+    "Images": [
+      "图10-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 石关",
+      "B. 商曲",
+      "C. 肓俞",
+      "D. 神封"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "128",
+    "Type": "Image Understanding",
+    "Class": "足少阴腧穴",
+    "Images": [
+      "图10-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 腹通谷",
+      "B. 阴都",
+      "C. 神封",
+      "D. 幽门"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "129",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 足三里",
+      "B. 缺盆",
+      "C. 犊鼻",
+      "D. 上巨虚"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "130",
+    "Type": "Image Understanding",
+    "Class": "足少阴腧穴",
+    "Images": [
+      "图10-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 灵墟",
+      "B. 中注",
+      "C. 气穴",
+      "D. 四满"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "131",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-4.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 玉枕",
+      "B. 志室",
+      "C. 胃仓",
+      "D. 胞肓"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "132",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 气冲",
+      "B. 气户",
+      "C. 髀关",
+      "D. 归来"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "133",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-4.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 曲差",
+      "B. 天柱",
+      "C. 五处",
+      "D. 承光"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "134",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-4.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 肾俞",
+      "B. 天柱",
+      "C. 三焦俞",
+      "D. 胃俞"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "135",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-4.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 次髎",
+      "B. 白环俞",
+      "C. 天柱",
+      "D. 上髎"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "136",
+    "Type": "Image Understanding",
+    "Class": "足少阴腧穴",
+    "Images": [
+      "图10-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 俞府",
+      "B. 阴谷",
+      "C. 横骨",
+      "D. 大赫"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "137",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 天冲",
+      "B. 阳白",
+      "C. 率谷",
+      "D. 曲鬓"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "138",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 太乙",
+      "B. 屋翳",
+      "C. 天枢",
+      "D. 滑肉门"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "139",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 上巨虚",
+      "B. 屋翳",
+      "C. 犊鼻",
+      "D. 足三里"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "140",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 大杼",
+      "B. 天柱",
+      "C. 承扶",
+      "D. 殷门"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "141",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 足临泣",
+      "B. 丘墟",
+      "C. 地五会",
+      "D. 阳白"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "142",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 飞扬",
+      "B. 承山",
+      "C. 承筋",
+      "D. 大杼"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "143",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 浮白",
+      "B. 头临泣",
+      "C. 头窍阴",
+      "D. 肩井"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "144",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 辄筋",
+      "B. 渊腋",
+      "C. 头临泣",
+      "D. 日月"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "145",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 眉冲",
+      "B. 攒竹",
+      "C. 睛明",
+      "D. 风门"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "146",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 曲差",
+      "B. 五处",
+      "C. 承光",
+      "D. 风门"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "147",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 膺窗",
+      "B. 解溪",
+      "C. 冲阳",
+      "D. 陷谷"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "148",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 膈关",
+      "B. 譩譆",
+      "C. 神堂",
+      "D. 风门"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "149",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 肩井",
+      "B. 浮白",
+      "C. 目窗",
+      "D. 头窍阴"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "150",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 承满",
+      "B. 梁门",
+      "C. 关门",
+      "D. 乳中"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "151",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 中渎",
+      "B. 风市",
+      "C. 目窗",
+      "D. 膝阳关"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "152",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 足窍阴",
+      "B. 目窗",
+      "C. 侠溪",
+      "D. 瞳子髎"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "153",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 厉兑",
+      "B. 乳中",
+      "C. 承泣",
+      "D. 内庭"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "154",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 魄户",
+      "B. 附分",
+      "C. 肺俞",
+      "D. 膏肓"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "155",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 外丘",
+      "B. 阳交",
+      "C. 正营",
+      "D. 阳陵泉"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "156",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 阴市",
+      "B. 乳根",
+      "C. 梁丘",
+      "D. 伏兔"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "157",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 曲差",
+      "B. 厥阴俞",
+      "C. 五处",
+      "D. 承光"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "158",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 内庭",
+      "B. 厉兑",
+      "C. 承泣",
+      "D. 乳根"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "159",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 膈关",
+      "B. 神堂",
+      "C. 譩譆",
+      "D. 厥阴俞"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "160",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 阳交",
+      "B. 承灵",
+      "C. 阳陵泉",
+      "D. 外丘"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "161",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 睛明",
+      "B. 眉冲",
+      "C. 攒竹",
+      "D. 心俞"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "162",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 承泣",
+      "B. 四白",
+      "C. 巨髎",
+      "D. 承满"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "163",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 光明",
+      "B. 悬钟",
+      "C. 脑空",
+      "D. 阳辅"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "164",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 脑空",
+      "B. 丘墟",
+      "C. 足临泣",
+      "D. 地五会"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "165",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 风池",
+      "B. 上关",
+      "C. 听会",
+      "D. 瞳子髎"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "166",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 心俞",
+      "B. 束骨",
+      "C. 至阴",
+      "D. 足通谷"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "167",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 天冲",
+      "B. 率谷",
+      "C. 曲鬓",
+      "D. 风池"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "168",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 承光",
+      "B. 五处",
+      "C. 督俞",
+      "D. 曲差"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "169",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 下巨虚",
+      "B. 条口",
+      "C. 梁门",
+      "D. 上巨虚"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "170",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 厉兑",
+      "B. 内庭",
+      "C. 陷谷",
+      "D. 梁门"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "171",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-3.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 风池",
+      "B. 足窍阴",
+      "C. 瞳子髎",
+      "D. 侠溪"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "172",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 缺盆",
+      "B. 气舍",
+      "C. 水突",
+      "D. 关门"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "173",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 关门",
+      "B. 髀关",
+      "C. 阴市",
+      "D. 伏兔"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "174",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 关门",
+      "B. 犊鼻",
+      "C. 梁丘",
+      "D. 足三里"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "175",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 颊车",
+      "B. 地仓",
+      "C. 大迎",
+      "D. 太乙"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "176",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-4.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 听会",
+      "B. 上关",
+      "C. 肩井",
+      "D. 瞳子髎"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "177",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 上巨虚",
+      "B. 下巨虚",
+      "C. 条口",
+      "D. 太乙"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "178",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 解溪",
+      "B. 太乙",
+      "C. 丰隆",
+      "D. 冲阳"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "179",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 五处",
+      "B. 肝俞",
+      "C. 承光",
+      "D. 曲差"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "180",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 肝俞",
+      "B. 跗阳",
+      "C. 仆参",
+      "D. 昆仑"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "181",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 头临泣",
+      "B. 阳白",
+      "C. 本神",
+      "D. 渊腋"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "182",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 承光",
+      "B. 胆俞",
+      "C. 五处",
+      "D. 曲差"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "183",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 五枢",
+      "B. 渊腋",
+      "C. 维道",
+      "D. 居髎"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "184",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 浮郄",
+      "B. 委阳",
+      "C. 委中",
+      "D. 胆俞"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "185",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 申脉",
+      "B. 金门",
+      "C. 京骨",
+      "D. 胆俞"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "186",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 辄筋",
+      "B. 承灵",
+      "C. 目窗",
+      "D. 正营"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "187",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 外丘",
+      "B. 阳辅",
+      "C. 光明",
+      "D. 辄筋"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "188",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 大迎",
+      "B. 地仓",
+      "C. 大巨",
+      "D. 颊车"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "189",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 悬厘",
+      "B. 颔厌",
+      "C. 悬颅",
+      "D. 京门"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "190",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 昆仑",
+      "B. 跗阳",
+      "C. 仆参",
+      "D. 胃俞"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "191",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 意舍",
+      "B. 肾俞",
+      "C. 魂门",
+      "D. 阳纲"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "192",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 头临泣",
+      "B. 本神",
+      "C. 阳白",
+      "D. 五枢"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "193",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 丰隆",
+      "B. 冲阳",
+      "C. 解溪",
+      "D. 气冲"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "194",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 五枢",
+      "B. 日月",
+      "C. 渊腋",
+      "D. 辄筋"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "195",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 五枢",
+      "B. 侠溪",
+      "C. 瞳子髎",
+      "D. 足窍阴"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "196",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 维道",
+      "B. 瞳子髎",
+      "C. 上关",
+      "D. 听会"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "197",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 昆仑",
+      "B. 仆参",
+      "C. 跗阳",
+      "D. 气海俞"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "198",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 乳中",
+      "B. 膺窗",
+      "C. 伏兔",
+      "D. 乳根"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "199",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 曲差",
+      "B. 大肠俞",
+      "C. 承光",
+      "D. 五处"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "200",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 阳白",
+      "B. 本神",
+      "C. 居髎",
+      "D. 头临泣"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "201",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 伏兔",
+      "B. 承泣",
+      "C. 厉兑",
+      "D. 内庭"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "202",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 悬钟",
+      "B. 阳辅",
+      "C. 光明",
+      "D. 居髎"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "203",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 足临泣",
+      "B. 地五会",
+      "C. 居髎",
+      "D. 丘墟"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "204",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 阴市",
+      "B. 关门",
+      "C. 太乙",
+      "D. 滑肉门"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "205",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 环跳",
+      "B. 天冲",
+      "C. 率谷",
+      "D. 曲鬓"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "206",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 头窍阴",
+      "B. 浮白",
+      "C. 完骨",
+      "D. 环跳"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "207",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 胞肓",
+      "B. 秩边",
+      "C. 关元俞",
+      "D. 合阳"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "208",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 风市",
+      "B. 环跳",
+      "C. 维道",
+      "D. 居髎"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "209",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 睛明",
+      "B. 小肠俞",
+      "C. 眉冲",
+      "D. 攒竹"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "210",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 承满",
+      "B. 梁门",
+      "C. 梁丘",
+      "D. 不容"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "211",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 本神",
+      "B. 头临泣",
+      "C. 阳白",
+      "D. 风市"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "212",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 昆仑",
+      "B. 仆参",
+      "C. 跗阳",
+      "D. 小肠俞"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "213",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 带脉",
+      "B. 五枢",
+      "C. 京门",
+      "D. 风市"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "214",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 至阴",
+      "B. 足通谷",
+      "C. 束骨",
+      "D. 小肠俞"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "215",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 气户",
+      "B. 库房",
+      "C. 犊鼻",
+      "D. 屋翳"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "216",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 风市",
+      "B. 光明",
+      "C. 悬钟",
+      "D. 阳辅"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "217",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 梁门",
+      "B. 承满",
+      "C. 不容",
+      "D. 犊鼻"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "218",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 听会",
+      "B. 中渎",
+      "C. 上关",
+      "D. 瞳子髎"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "219",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 胃仓",
+      "B. 志室",
+      "C. 膀胱俞",
+      "D. 肓门"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "220",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 中渎",
+      "B. 本神",
+      "C. 阳白",
+      "D. 头临泣"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "221",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 足三里",
+      "B. 大迎",
+      "C. 颊车",
+      "D. 地仓"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "222",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 库房",
+      "B. 屋翳",
+      "C. 足三里",
+      "D. 气户"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "223",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 通天",
+      "B. 中膂俞",
+      "C. 玉枕",
+      "D. 络却"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "224",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 中膂俞",
+      "B. 膏肓",
+      "C. 附分",
+      "D. 魄户"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "225",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 渊腋",
+      "B. 辄筋",
+      "C. 日月",
+      "D. 膝阳关"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "226",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 关门",
+      "B. 上巨虚",
+      "C. 太乙",
+      "D. 滑肉门"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "227",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 大巨",
+      "B. 外陵",
+      "C. 上巨虚",
+      "D. 天枢"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "228",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 率谷",
+      "B. 曲鬓",
+      "C. 天冲",
+      "D. 阳陵泉"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "229",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 阳纲",
+      "B. 意舍",
+      "C. 魂门",
+      "D. 白环俞"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "230",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 阳陵泉",
+      "B. 本神",
+      "C. 阳白",
+      "D. 头临泣"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "231",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 气舍",
+      "B. 缺盆",
+      "C. 水突",
+      "D. 条口"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "232",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 飞扬",
+      "B. 承筋",
+      "C. 承山",
+      "D. 白环俞"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "233",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 屋翳",
+      "B. 条口",
+      "C. 库房",
+      "D. 气户"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "234",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 束骨",
+      "B. 白环俞",
+      "C. 至阴",
+      "D. 足通谷"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "235",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 瞳子髎",
+      "B. 听会",
+      "C. 足窍阴",
+      "D. 阳陵泉"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "236",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 承扶",
+      "B. 上髎",
+      "C. 天柱",
+      "D. 殷门"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "237",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 曲鬓",
+      "B. 天冲",
+      "C. 率谷",
+      "D. 阳交"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "238",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 丰隆",
+      "B. 气舍",
+      "C. 缺盆",
+      "D. 水突"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "239",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 屋翳",
+      "B. 气户",
+      "C. 库房",
+      "D. 丰隆"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "240",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 昆仑",
+      "B. 仆参",
+      "C. 跗阳",
+      "D. 上髎"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "241",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 束骨",
+      "B. 上髎",
+      "C. 足通谷",
+      "D. 至阴"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "242",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 次髎",
+      "B. 膈关",
+      "C. 神堂",
+      "D. 譩譆"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "243",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 脑空",
+      "B. 风池",
+      "C. 外丘",
+      "D. 肩井"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "244",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 中渎",
+      "B. 膝阳关",
+      "C. 风市",
+      "D. 光明"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "245",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 解溪",
+      "B. 阴市",
+      "C. 伏兔",
+      "D. 髀关"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "246",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 下髎",
+      "B. 通天",
+      "C. 玉枕",
+      "D. 络却"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "247",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 天柱",
+      "B. 承扶",
+      "C. 殷门",
+      "D. 下髎"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "248",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 譩譆",
+      "B. 下髎",
+      "C. 神堂",
+      "D. 膈关"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "249",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-5.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 飞扬",
+      "B. 下髎",
+      "C. 承筋",
+      "D. 承山"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "250",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 悬钟",
+      "B. 曲鬓",
+      "C. 率谷",
+      "D. 天冲"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "251",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 本神",
+      "B. 头临泣",
+      "C. 悬钟",
+      "D. 阳白"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "252",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 肩井",
+      "B. 风池",
+      "C. 脑空",
+      "D. 悬钟"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "253",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 悬钟",
+      "B. 中渎",
+      "C. 风市",
+      "D. 膝阳关"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "254",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 悬钟",
+      "B. 听会",
+      "C. 瞳子髎",
+      "D. 足窍阴"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "255",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 承泣",
+      "B. 四白",
+      "C. 丰隆",
+      "D. 冲阳"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "256",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 脾俞",
+      "B. 胃俞",
+      "C. 承扶",
+      "D. 胆俞"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "257",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 陷谷",
+      "B. 膺窗",
+      "C. 乳根",
+      "D. 乳中"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "258",
+    "Type": "Image Understanding",
+    "Class": "足少阳腧穴",
+    "Images": [
+      "图13-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 风市",
+      "B. 中渎",
+      "C. 膝阳关",
+      "D. 丘墟"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "259",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 伏兔",
+      "B. 陷谷",
+      "C. 髀关",
+      "D. 阴市"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "260",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 下关",
+      "B. 内庭",
+      "C. 头维",
+      "D. 人迎"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "261",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 太乙",
+      "B. 内庭",
+      "C. 滑肉门",
+      "D. 关门"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "262",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 伏兔",
+      "B. 内庭",
+      "C. 阴市",
+      "D. 髀关"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "263",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 合阳",
+      "B. 秩边",
+      "C. 承筋",
+      "D. 殷门"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "264",
+    "Type": "Image Understanding",
+    "Class": "足阳明腧穴",
+    "Images": [
+      "图5-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 天枢",
+      "B. 大巨",
+      "C. 外陵",
+      "D. 厉兑"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "265",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 督俞",
+      "B. 膈俞",
+      "C. 肝俞",
+      "D. 浮郄"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "266",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 通天",
+      "B. 玉枕",
+      "C. 络却",
+      "D. 委阳"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "267",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 附分",
+      "B. 会阳",
+      "C. 委阳",
+      "D. 下髎"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "268",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-6.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 委中",
+      "B. 胞肓",
+      "C. 志室",
+      "D. 胃仓"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "269",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 附分",
+      "B. 三焦俞",
+      "C. 肾俞",
+      "D. 气海俞"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "270",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 魄户",
+      "B. 肝俞",
+      "C. 膈俞",
+      "D. 督俞"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "271",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 三焦俞",
+      "B. 肾俞",
+      "C. 魄户",
+      "D. 气海俞"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "272",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 中膂俞",
+      "B. 白环俞",
+      "C. 魄户",
+      "D. 膀胱俞"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "273",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 玉枕",
+      "B. 神堂",
+      "C. 通天",
+      "D. 络却"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "274",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 譩譆",
+      "B. 睛明",
+      "C. 眉冲",
+      "D. 攒竹"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "275",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 譩譆",
+      "B. 玉枕",
+      "C. 络却",
+      "D. 通天"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "276",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 肝俞",
+      "B. 督俞",
+      "C. 膈俞",
+      "D. 膈关"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "277",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 脾俞",
+      "B. 胃俞",
+      "C. 胆俞",
+      "D. 膈关"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "278",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 厥阴俞",
+      "B. 心俞",
+      "C. 肺俞",
+      "D. 魂门"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "279",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 魂门",
+      "B. 承扶",
+      "C. 会阳",
+      "D. 下髎"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "280",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 肺俞",
+      "B. 意舍",
+      "C. 心俞",
+      "D. 厥阴俞"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "281",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 下髎",
+      "B. 承扶",
+      "C. 会阳",
+      "D. 意舍"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "282",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 络却",
+      "B. 通天",
+      "C. 玉枕",
+      "D. 胃仓"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "283",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 次髎",
+      "B. 胃仓",
+      "C. 中髎",
+      "D. 上髎"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "284",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 肓门",
+      "B. 申脉",
+      "C. 仆参",
+      "D. 昆仑"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "285",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 至阴",
+      "B. 足通谷",
+      "C. 肓门",
+      "D. 睛明"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "286",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 志室",
+      "B. 眉冲",
+      "C. 睛明",
+      "D. 攒竹"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "287",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 志室",
+      "B. 上髎",
+      "C. 次髎",
+      "D. 中髎"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "288",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 志室",
+      "B. 申脉",
+      "C. 仆参",
+      "D. 昆仑"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "289",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 胞肓",
+      "B. 督俞",
+      "C. 膈俞",
+      "D. 肝俞"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "290",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-7.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 委阳",
+      "B. 浮郄",
+      "C. 胞肓",
+      "D. 殷门"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "291",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 天柱",
+      "B. 风门",
+      "C. 大杼",
+      "D. 委中"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "292",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 大肠俞",
+      "B. 关元俞",
+      "C. 小肠俞",
+      "D. 委中"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "293",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 意舍",
+      "B. 魂门",
+      "C. 阳纲",
+      "D. 合阳"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "294",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 秩边",
+      "B. 仆参",
+      "C. 胞肓",
+      "D. 合阳"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "295",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 承筋",
+      "B. 肾俞",
+      "C. 气海俞",
+      "D. 三焦俞"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "296",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 浮郄",
+      "B. 委阳",
+      "C. 殷门",
+      "D. 承筋"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "297",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 附分",
+      "B. 魄户",
+      "C. 承山",
+      "D. 膏肓"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "298",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 譩譆",
+      "B. 承山",
+      "C. 膈关",
+      "D. 神堂"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "299",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 至阴",
+      "B. 承山",
+      "C. 束骨",
+      "D. 足通谷"
+    ],
+    "Answer": "B"
+  },
+  {
+    "ID": "300",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 膀胱俞",
+      "B. 中膂俞",
+      "C. 白环俞",
+      "D. 飞扬"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "301",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 心俞",
+      "B. 厥阴俞",
+      "C. 跗阳",
+      "D. 肺俞"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "302",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 京骨",
+      "B. 申脉",
+      "C. 金门",
+      "D. 跗阳"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "303",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 络却",
+      "B. 玉枕",
+      "C. 昆仑",
+      "D. 通天"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "304",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 承扶",
+      "B. 会阳",
+      "C. 昆仑",
+      "D. 下髎"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "305",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-8.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 京骨",
+      "B. 申脉",
+      "C. 金门",
+      "D. 昆仑"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "306",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 睛明",
+      "B. 飞扬",
+      "C. 跗阳",
+      "D. 昆仑"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "307",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 络却",
+      "B. 通天",
+      "C. 玉枕",
+      "D. 仆参"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "308",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 仆参",
+      "B. 膈俞",
+      "C. 督俞",
+      "D. 肝俞"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "309",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 白环俞",
+      "B. 膀胱俞",
+      "C. 仆参",
+      "D. 中膂俞"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "310",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 承山",
+      "B. 承筋",
+      "C. 合阳",
+      "D. 仆参"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "311",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 申脉",
+      "B. 通天",
+      "C. 玉枕",
+      "D. 络却"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "312",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 申脉",
+      "B. 大杼",
+      "C. 天柱",
+      "D. 风门"
+    ],
+    "Answer": "A"
+  },
+  {
+    "ID": "313",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 肺俞",
+      "B. 心俞",
+      "C. 金门",
+      "D. 厥阴俞"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "314",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 委阳",
+      "B. 殷门",
+      "C. 金门",
+      "D. 浮郄"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "315",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 委中",
+      "B. 附分",
+      "C. 魄户",
+      "D. 金门"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "316",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 小肠俞",
+      "B. 关元俞",
+      "C. 大肠俞",
+      "D. 京骨"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "317",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 睛明",
+      "B. 攒竹",
+      "C. 束骨",
+      "D. 眉冲"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "318",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 大肠俞",
+      "B. 关元俞",
+      "C. 小肠俞",
+      "D. 束骨"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "319",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 跗阳",
+      "B. 睛明",
+      "C. 飞扬",
+      "D. 束骨"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "320",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 譩譆",
+      "B. 神堂",
+      "C. 膏肓",
+      "D. 足通谷"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "321",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 意舍",
+      "B. 胃仓",
+      "C. 肓门",
+      "D. 足通谷"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "322",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 大杼",
+      "B. 天柱",
+      "C. 至阴",
+      "D. 风门"
+    ],
+    "Answer": "C"
+  },
+  {
+    "ID": "323",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 肺俞",
+      "B. 心俞",
+      "C. 厥阴俞",
+      "D. 至阴"
+    ],
+    "Answer": "D"
+  },
+  {
+    "ID": "324",
+    "Type": "Image Understanding",
+    "Class": "足太阳腧穴",
+    "Images": [
+      "图9-2-9.jpeg"
+    ],
+    "Question": "图片中可能包含选项中的哪些穴位？",
+    "Options": [
+      "A. 飞扬",
+      "B. 至阴",
+      "C. 睛明",
+      "D. 跗阳"
+    ],
+    "Answer": "B"
+  }
+]
