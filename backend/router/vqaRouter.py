@@ -246,19 +246,19 @@ async def upload_and_calculate(
     logger.info(f"Scores calculated: S1={score_single}, S2={score_multi}, S3={score_two}, S4={score_three}, Avg={average_score}")
     
     # 5. 存入数据库
-    # record = vqa_leaderboard_dao.add_record(
-    #     db,
-    #     llm_name=llm_name,
-    #     llm_org=llm_org or "",
-    #     type_one_single_score=score_single,
-    #     type_one_multi_score=score_multi,
-    #     type_two_score=score_two,
-    #     type_three_score=score_three,
-    #     avg_score=average_score
-    # )
+    record = vqa_leaderboard_dao.add_record(
+        db,
+        llm_name=llm_name,
+        llm_org=llm_org or "",
+        type_one_single_score=score_single,
+        type_one_multi_score=score_multi,
+        type_two_score=score_two,
+        type_three_score=score_three,
+        avg_score=average_score
+    )
     
-    # if not record:
-    #     raise HTTPException(status_code=500, detail="数据库保存失败")
+    if not record:
+        raise HTTPException(status_code=500, detail="数据库保存失败")
         
     return {
         "llm_name": llm_name,
