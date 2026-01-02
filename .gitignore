@@ -47,3 +47,6 @@ build/
 .env
 .env.local
 .env.*.local
+
+# Ignore full dataset backups
+backup/

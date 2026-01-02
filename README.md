@@ -202,9 +202,21 @@ npm run dev
 
 ## 标准答案数据集位置
 
-- VQA：`backend/datasets/vqa/`
-- QA：`backend/datasets/qa/`
-	- `A1.json` / `A2.json` / `A3.json` / `A4.json` / `B.json` / `X.json`
+- **公开样例（每个 JSON 仅保留前 2 道题目）**
+
+	- root/datasets：
+		- QA：`datasets/qa/A1.json` / `A2.json` / `A3.json` / `A4.json` / `B.json` / `X.json`
+		- VQA：`datasets/vqa/第一类题型/`、`datasets/vqa/第二类题型/`、`datasets/vqa/第三类题型/`
+	- backend/datasets（供后端评测使用）：
+		- QA：`backend/datasets/qa/A1.json`…`X.json`
+		- VQA：`backend/datasets/vqa/第一类题型/` 等
+
+- **完整备份（保留所有题目，文件名以 `_full.json` 结尾）**
+	- QA：`backup/datasets/qa/A1_full.json` … `X_full.json`（后端脚本读取 `backup/backend/datasets/qa/*.json`）
+	- VQA：`backup/datasets/vqa/<题型>/<文件名>_full.json`（后端脚本读取 `backup/backend/datasets/vqa/<题型>/<文件名>_full.json`）
+	- 说明：`backup/` 默认被 `.gitignore` 忽略，不会提交到仓库
+
+- 使用 `backend/scripts/trim_datasets.py` 可从 `backup/**/_full.json` 重新生成上述“前两题”样例
 
 ---
 

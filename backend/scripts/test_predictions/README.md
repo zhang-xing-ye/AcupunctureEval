@@ -37,3 +37,8 @@
 ```powershell
 python scripts/generate_test_predictions.py
 ```
+
+## 说明
+
+- 此脚本读取 `backup/backend/datasets/qa/*_full.json` 与 `backup/backend/datasets/vqa/*_full.json`，以确保冒烟预测覆盖完整题库。
+- 如果你只希望对外展示前 2 道题，可通过 `backend/scripts/trim_datasets.py` 从 `backup/**/_full.json` 重新生成 trimmed 样例 `backend/datasets/qa/*.json` 与 `backend/datasets/vqa/**/*.json`。

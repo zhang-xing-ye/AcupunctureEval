@@ -57,3 +57,12 @@ npm run dev
 - 时间字段（如果存在）：`created_at`/`created_time`（以实际接口返回为准）
 
 前端对接时，建议做一次字段映射层（例如把 `avg_score` 映射为 UI 的 `score`）。
+
+---
+
+## 数据集说明
+
+- 当前公开的 QA/VQA JSON（位于 `datasets/qa` 与 `datasets/vqa`）仅保留每个文件的前 2 道题目，作为轻量示例。
+- 需要完整题库时，请使用 `backup/` 下的 `*_full.json`（例如 `backup/datasets/qa/A1_full.json` 或 `backup/datasets/vqa/第一类题型/单选题_324题_full.json`）。
+- 你可以通过 `backend/scripts/trim_datasets.py` 从 `backup/**/_full.json` 重新生成 trimmed 样例。
+- 说明：`backup/` 默认被 `.gitignore` 忽略，不会提交到仓库。

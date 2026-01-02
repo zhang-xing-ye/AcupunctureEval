@@ -7,9 +7,9 @@ import os
 from pathlib import Path
 from typing import Dict, Any, List
 
-# 项目根目录
 BASE_DIR = Path(__file__).parent.parent
-DATASET_DIR = BASE_DIR / "datasets"
+REPO_ROOT = BASE_DIR.parent
+BACKUP_DIR = REPO_ROOT / "backup" / "backend" / "datasets"
 OUTPUT_DIR = BASE_DIR / "scripts" / "test_predictions"
 
 
@@ -17,16 +17,16 @@ def generate_vqa_predictions():
     """生成VQA预测文件（从标准答案转换）"""
     print("生成VQA预测文件...")
 
-    vqa_dir = DATASET_DIR / "vqa"
+    vqa_dir = BACKUP_DIR / "vqa"
     output_vqa_dir = OUTPUT_DIR / "vqa"
     output_vqa_dir.mkdir(parents=True, exist_ok=True)
 
     # VQA四个题型
     vqa_files = {
-        "第一类题型/单选题_324题.json": "single_choice.json",
-        "第一类题型/多选题_600题.json": "multi_choice.json",
-        "第二类题型/定位题_37题.json": "location.json",
-        "第三类题型/针灸操作题_35题.json": "operation.json"
+        "第一类题型/单选题_324题_full.json": "single_choice.json",
+        "第一类题型/多选题_600题_full.json": "multi_choice.json",
+        "第二类题型/定位题_37题_full.json": "location.json",
+        "第三类题型/针灸操作题_35题_full.json": "operation.json"
     }
 
     for src_path, dst_name in vqa_files.items():
@@ -58,15 +58,15 @@ def generate_qa_flat_predictions():
     """生成QA扁平题型预测文件（A1/A2/X）"""
     print("\n生成QA扁平题型预测文件...")
 
-    qa_dir = DATASET_DIR / "qa"
+    qa_dir = BACKUP_DIR / "qa"
     output_qa_dir = OUTPUT_DIR / "qa"
     output_qa_dir.mkdir(parents=True, exist_ok=True)
 
     # 扁平题型
     flat_types = {
-        "A1.json": "a1_predictions.json",
-        "A2.json": "a2_predictions.json",
-        "X.json": "x_predictions.json"
+        "A1_full.json": "a1_predictions.json",
+        "A2_full.json": "a2_predictions.json",
+        "X_full.json": "x_predictions.json"
     }
 
     for src_name, dst_name in flat_types.items():
@@ -98,15 +98,15 @@ def generate_qa_grouped_predictions():
     """生成QA分组题型预测文件（A3/A4/B）"""
     print("\n生成QA分组题型预测文件...")
 
-    qa_dir = DATASET_DIR / "qa"
+    qa_dir = BACKUP_DIR / "qa"
     output_qa_dir = OUTPUT_DIR / "qa"
     output_qa_dir.mkdir(parents=True, exist_ok=True)
 
     # 分组题型
     grouped_types = {
-        "A3.json": "a3_predictions.json",
-        "A4.json": "a4_predictions.json",
-        "B.json": "b_predictions.json"
+        "A3_full.json": "a3_predictions.json",
+        "A4_full.json": "a4_predictions.json",
+        "B_full.json": "b_predictions.json"
     }
 
     for src_name, dst_name in grouped_types.items():

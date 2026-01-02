@@ -10,16 +10,10 @@
     ],
     "questions": [
       {
-        "question": "手太阴之\"本\"相应腧穴是（ ）",
-        "answer": [
-          "A"
-        ]
+        "question": "手太阴之“本”相应腧穴是（ ）"
       },
       {
-        "question": "手少阴之\"本\"相应腧穴是（ ）",
-        "answer": [
-          "C"
-        ]
+        "question": "手少阴之“本”相应腧穴是（ ）"
       }
     ]
   },
@@ -34,16 +28,10 @@
     ],
     "questions": [
       {
-        "question": "肝有邪，其气留于（ ）",
-        "answer": [
-          "B"
-        ]
+        "question": "肝有邪，其气留于（ ）"
       },
       {
-        "question": "肾有邪，其气留于（ ）",
-        "answer": [
-          "D"
-        ]
+        "question": "肾有邪，其气留于（ ）"
       }
     ]
   }

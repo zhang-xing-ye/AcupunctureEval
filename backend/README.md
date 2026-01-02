@@ -3,7 +3,7 @@
 
 本目录为后端服务（FastAPI + SQLite）。后端负责：
 
-- 读取标准答案数据集（datasets/）
+- 读取标准答案数据集（`backend/datasets/`，为公开样例）
 - 接收模型预测文件（JSON），计算分数
 - 将评测结果写入 SQLite（acue_app.db）
 - 提供排行榜查询接口
@@ -102,14 +102,13 @@ python scripts/generate_test_predictions.py
 
 ## 标准答案数据集路径
 
-- VQA：`backend/datasets/vqa/`（文件名与目录见仓库实际结构）
-- QA：`backend/datasets/qa/`
-	- `A1.json`
-	- `A2.json`
-	- `A3.json`
-	- `A4.json`
-	- `B.json`
-	- `X.json`
+- **样例版（公开，供评测/文档使用）**：
+  - VQA：`backend/datasets/vqa/` 下的各题型 JSON（每个文件只保留前 2 道题目，按 `trim_datasets.py` 自动更新）
+  - QA：`backend/datasets/qa/A1.json` / `A2.json` / `A3.json` / `A4.json` / `B.json` / `X.json`
+- **完整版（仅内部使用，文件名以 `_full.json` 结尾）**：
+  - QA：`backup/backend/datasets/qa/A1_full.json` 等完整标准答案
+  - VQA：`backup/backend/datasets/vqa/<题型>/<文件名>_full.json`
+  - 可在 `backend/scripts/trim_datasets.py` 里从 `backup/**/_full.json` 重新生成样例版到 `backend/datasets/`
 
 ## 代码入口（读代码顺序）
 
