@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.responses import RedirectResponse
 from fastapi.middleware.cors import CORSMiddleware
-from router import vqaRouter
+from router import vqaRouter, qaRouter
 
 # 配置FastAPI
 app = FastAPI(
@@ -24,5 +24,6 @@ async def redirect_root_to_docs():
     return RedirectResponse("/docs")
 
 app.include_router(vqaRouter.router)
+app.include_router(qaRouter.router)
 
 

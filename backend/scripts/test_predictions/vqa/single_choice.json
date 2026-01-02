@@ -1,0 +1,1298 @@
+[
+  {
+    "ID": "1",
+    "output": "B"
+  },
+  {
+    "ID": "2",
+    "output": "B"
+  },
+  {
+    "ID": "3",
+    "output": "B"
+  },
+  {
+    "ID": "4",
+    "output": "A"
+  },
+  {
+    "ID": "5",
+    "output": "A"
+  },
+  {
+    "ID": "6",
+    "output": "B"
+  },
+  {
+    "ID": "7",
+    "output": "A"
+  },
+  {
+    "ID": "8",
+    "output": "C"
+  },
+  {
+    "ID": "9",
+    "output": "B"
+  },
+  {
+    "ID": "10",
+    "output": "B"
+  },
+  {
+    "ID": "11",
+    "output": "B"
+  },
+  {
+    "ID": "12",
+    "output": "D"
+  },
+  {
+    "ID": "13",
+    "output": "C"
+  },
+  {
+    "ID": "14",
+    "output": "A"
+  },
+  {
+    "ID": "15",
+    "output": "A"
+  },
+  {
+    "ID": "16",
+    "output": "D"
+  },
+  {
+    "ID": "17",
+    "output": "A"
+  },
+  {
+    "ID": "18",
+    "output": "D"
+  },
+  {
+    "ID": "19",
+    "output": "B"
+  },
+  {
+    "ID": "20",
+    "output": "B"
+  },
+  {
+    "ID": "21",
+    "output": "A"
+  },
+  {
+    "ID": "22",
+    "output": "A"
+  },
+  {
+    "ID": "23",
+    "output": "A"
+  },
+  {
+    "ID": "24",
+    "output": "D"
+  },
+  {
+    "ID": "25",
+    "output": "B"
+  },
+  {
+    "ID": "26",
+    "output": "D"
+  },
+  {
+    "ID": "27",
+    "output": "D"
+  },
+  {
+    "ID": "28",
+    "output": "A"
+  },
+  {
+    "ID": "29",
+    "output": "A"
+  },
+  {
+    "ID": "30",
+    "output": "B"
+  },
+  {
+    "ID": "31",
+    "output": "D"
+  },
+  {
+    "ID": "32",
+    "output": "A"
+  },
+  {
+    "ID": "33",
+    "output": "D"
+  },
+  {
+    "ID": "34",
+    "output": "A"
+  },
+  {
+    "ID": "35",
+    "output": "D"
+  },
+  {
+    "ID": "36",
+    "output": "D"
+  },
+  {
+    "ID": "37",
+    "output": "D"
+  },
+  {
+    "ID": "38",
+    "output": "D"
+  },
+  {
+    "ID": "39",
+    "output": "D"
+  },
+  {
+    "ID": "40",
+    "output": "C"
+  },
+  {
+    "ID": "41",
+    "output": "D"
+  },
+  {
+    "ID": "42",
+    "output": "C"
+  },
+  {
+    "ID": "43",
+    "output": "A"
+  },
+  {
+    "ID": "44",
+    "output": "C"
+  },
+  {
+    "ID": "45",
+    "output": "B"
+  },
+  {
+    "ID": "46",
+    "output": "B"
+  },
+  {
+    "ID": "47",
+    "output": "A"
+  },
+  {
+    "ID": "48",
+    "output": "A"
+  },
+  {
+    "ID": "49",
+    "output": "A"
+  },
+  {
+    "ID": "50",
+    "output": "B"
+  },
+  {
+    "ID": "51",
+    "output": "D"
+  },
+  {
+    "ID": "52",
+    "output": "B"
+  },
+  {
+    "ID": "53",
+    "output": "A"
+  },
+  {
+    "ID": "54",
+    "output": "D"
+  },
+  {
+    "ID": "55",
+    "output": "B"
+  },
+  {
+    "ID": "56",
+    "output": "B"
+  },
+  {
+    "ID": "57",
+    "output": "B"
+  },
+  {
+    "ID": "58",
+    "output": "B"
+  },
+  {
+    "ID": "59",
+    "output": "B"
+  },
+  {
+    "ID": "60",
+    "output": "A"
+  },
+  {
+    "ID": "61",
+    "output": "A"
+  },
+  {
+    "ID": "62",
+    "output": "A"
+  },
+  {
+    "ID": "63",
+    "output": "B"
+  },
+  {
+    "ID": "64",
+    "output": "B"
+  },
+  {
+    "ID": "65",
+    "output": "D"
+  },
+  {
+    "ID": "66",
+    "output": "C"
+  },
+  {
+    "ID": "67",
+    "output": "A"
+  },
+  {
+    "ID": "68",
+    "output": "A"
+  },
+  {
+    "ID": "69",
+    "output": "A"
+  },
+  {
+    "ID": "70",
+    "output": "A"
+  },
+  {
+    "ID": "71",
+    "output": "D"
+  },
+  {
+    "ID": "72",
+    "output": "C"
+  },
+  {
+    "ID": "73",
+    "output": "A"
+  },
+  {
+    "ID": "74",
+    "output": "C"
+  },
+  {
+    "ID": "75",
+    "output": "C"
+  },
+  {
+    "ID": "76",
+    "output": "C"
+  },
+  {
+    "ID": "77",
+    "output": "B"
+  },
+  {
+    "ID": "78",
+    "output": "D"
+  },
+  {
+    "ID": "79",
+    "output": "D"
+  },
+  {
+    "ID": "80",
+    "output": "A"
+  },
+  {
+    "ID": "81",
+    "output": "B"
+  },
+  {
+    "ID": "82",
+    "output": "A"
+  },
+  {
+    "ID": "83",
+    "output": "C"
+  },
+  {
+    "ID": "84",
+    "output": "C"
+  },
+  {
+    "ID": "85",
+    "output": "A"
+  },
+  {
+    "ID": "86",
+    "output": "A"
+  },
+  {
+    "ID": "87",
+    "output": "B"
+  },
+  {
+    "ID": "88",
+    "output": "C"
+  },
+  {
+    "ID": "89",
+    "output": "B"
+  },
+  {
+    "ID": "90",
+    "output": "C"
+  },
+  {
+    "ID": "91",
+    "output": "B"
+  },
+  {
+    "ID": "92",
+    "output": "C"
+  },
+  {
+    "ID": "93",
+    "output": "C"
+  },
+  {
+    "ID": "94",
+    "output": "C"
+  },
+  {
+    "ID": "95",
+    "output": "B"
+  },
+  {
+    "ID": "96",
+    "output": "D"
+  },
+  {
+    "ID": "97",
+    "output": "A"
+  },
+  {
+    "ID": "98",
+    "output": "C"
+  },
+  {
+    "ID": "99",
+    "output": "B"
+  },
+  {
+    "ID": "100",
+    "output": "B"
+  },
+  {
+    "ID": "101",
+    "output": "C"
+  },
+  {
+    "ID": "102",
+    "output": "D"
+  },
+  {
+    "ID": "103",
+    "output": "C"
+  },
+  {
+    "ID": "104",
+    "output": "D"
+  },
+  {
+    "ID": "105",
+    "output": "A"
+  },
+  {
+    "ID": "106",
+    "output": "B"
+  },
+  {
+    "ID": "107",
+    "output": "B"
+  },
+  {
+    "ID": "108",
+    "output": "D"
+  },
+  {
+    "ID": "109",
+    "output": "A"
+  },
+  {
+    "ID": "110",
+    "output": "B"
+  },
+  {
+    "ID": "111",
+    "output": "A"
+  },
+  {
+    "ID": "112",
+    "output": "D"
+  },
+  {
+    "ID": "113",
+    "output": "B"
+  },
+  {
+    "ID": "114",
+    "output": "D"
+  },
+  {
+    "ID": "115",
+    "output": "B"
+  },
+  {
+    "ID": "116",
+    "output": "C"
+  },
+  {
+    "ID": "117",
+    "output": "B"
+  },
+  {
+    "ID": "118",
+    "output": "C"
+  },
+  {
+    "ID": "119",
+    "output": "B"
+  },
+  {
+    "ID": "120",
+    "output": "A"
+  },
+  {
+    "ID": "121",
+    "output": "A"
+  },
+  {
+    "ID": "122",
+    "output": "A"
+  },
+  {
+    "ID": "123",
+    "output": "C"
+  },
+  {
+    "ID": "124",
+    "output": "B"
+  },
+  {
+    "ID": "125",
+    "output": "D"
+  },
+  {
+    "ID": "126",
+    "output": "B"
+  },
+  {
+    "ID": "127",
+    "output": "D"
+  },
+  {
+    "ID": "128",
+    "output": "C"
+  },
+  {
+    "ID": "129",
+    "output": "B"
+  },
+  {
+    "ID": "130",
+    "output": "A"
+  },
+  {
+    "ID": "131",
+    "output": "A"
+  },
+  {
+    "ID": "132",
+    "output": "B"
+  },
+  {
+    "ID": "133",
+    "output": "B"
+  },
+  {
+    "ID": "134",
+    "output": "B"
+  },
+  {
+    "ID": "135",
+    "output": "C"
+  },
+  {
+    "ID": "136",
+    "output": "A"
+  },
+  {
+    "ID": "137",
+    "output": "B"
+  },
+  {
+    "ID": "138",
+    "output": "B"
+  },
+  {
+    "ID": "139",
+    "output": "B"
+  },
+  {
+    "ID": "140",
+    "output": "A"
+  },
+  {
+    "ID": "141",
+    "output": "D"
+  },
+  {
+    "ID": "142",
+    "output": "D"
+  },
+  {
+    "ID": "143",
+    "output": "B"
+  },
+  {
+    "ID": "144",
+    "output": "C"
+  },
+  {
+    "ID": "145",
+    "output": "D"
+  },
+  {
+    "ID": "146",
+    "output": "D"
+  },
+  {
+    "ID": "147",
+    "output": "A"
+  },
+  {
+    "ID": "148",
+    "output": "D"
+  },
+  {
+    "ID": "149",
+    "output": "C"
+  },
+  {
+    "ID": "150",
+    "output": "D"
+  },
+  {
+    "ID": "151",
+    "output": "C"
+  },
+  {
+    "ID": "152",
+    "output": "B"
+  },
+  {
+    "ID": "153",
+    "output": "B"
+  },
+  {
+    "ID": "154",
+    "output": "C"
+  },
+  {
+    "ID": "155",
+    "output": "C"
+  },
+  {
+    "ID": "156",
+    "output": "B"
+  },
+  {
+    "ID": "157",
+    "output": "B"
+  },
+  {
+    "ID": "158",
+    "output": "D"
+  },
+  {
+    "ID": "159",
+    "output": "D"
+  },
+  {
+    "ID": "160",
+    "output": "B"
+  },
+  {
+    "ID": "161",
+    "output": "D"
+  },
+  {
+    "ID": "162",
+    "output": "D"
+  },
+  {
+    "ID": "163",
+    "output": "C"
+  },
+  {
+    "ID": "164",
+    "output": "A"
+  },
+  {
+    "ID": "165",
+    "output": "A"
+  },
+  {
+    "ID": "166",
+    "output": "A"
+  },
+  {
+    "ID": "167",
+    "output": "D"
+  },
+  {
+    "ID": "168",
+    "output": "C"
+  },
+  {
+    "ID": "169",
+    "output": "C"
+  },
+  {
+    "ID": "170",
+    "output": "D"
+  },
+  {
+    "ID": "171",
+    "output": "A"
+  },
+  {
+    "ID": "172",
+    "output": "D"
+  },
+  {
+    "ID": "173",
+    "output": "A"
+  },
+  {
+    "ID": "174",
+    "output": "A"
+  },
+  {
+    "ID": "175",
+    "output": "D"
+  },
+  {
+    "ID": "176",
+    "output": "C"
+  },
+  {
+    "ID": "177",
+    "output": "D"
+  },
+  {
+    "ID": "178",
+    "output": "B"
+  },
+  {
+    "ID": "179",
+    "output": "B"
+  },
+  {
+    "ID": "180",
+    "output": "A"
+  },
+  {
+    "ID": "181",
+    "output": "D"
+  },
+  {
+    "ID": "182",
+    "output": "B"
+  },
+  {
+    "ID": "183",
+    "output": "B"
+  },
+  {
+    "ID": "184",
+    "output": "D"
+  },
+  {
+    "ID": "185",
+    "output": "D"
+  },
+  {
+    "ID": "186",
+    "output": "A"
+  },
+  {
+    "ID": "187",
+    "output": "D"
+  },
+  {
+    "ID": "188",
+    "output": "C"
+  },
+  {
+    "ID": "189",
+    "output": "D"
+  },
+  {
+    "ID": "190",
+    "output": "D"
+  },
+  {
+    "ID": "191",
+    "output": "B"
+  },
+  {
+    "ID": "192",
+    "output": "D"
+  },
+  {
+    "ID": "193",
+    "output": "D"
+  },
+  {
+    "ID": "194",
+    "output": "A"
+  },
+  {
+    "ID": "195",
+    "output": "A"
+  },
+  {
+    "ID": "196",
+    "output": "A"
+  },
+  {
+    "ID": "197",
+    "output": "D"
+  },
+  {
+    "ID": "198",
+    "output": "C"
+  },
+  {
+    "ID": "199",
+    "output": "B"
+  },
+  {
+    "ID": "200",
+    "output": "C"
+  },
+  {
+    "ID": "201",
+    "output": "A"
+  },
+  {
+    "ID": "202",
+    "output": "D"
+  },
+  {
+    "ID": "203",
+    "output": "C"
+  },
+  {
+    "ID": "204",
+    "output": "A"
+  },
+  {
+    "ID": "205",
+    "output": "A"
+  },
+  {
+    "ID": "206",
+    "output": "D"
+  },
+  {
+    "ID": "207",
+    "output": "C"
+  },
+  {
+    "ID": "208",
+    "output": "B"
+  },
+  {
+    "ID": "209",
+    "output": "B"
+  },
+  {
+    "ID": "210",
+    "output": "C"
+  },
+  {
+    "ID": "211",
+    "output": "D"
+  },
+  {
+    "ID": "212",
+    "output": "D"
+  },
+  {
+    "ID": "213",
+    "output": "D"
+  },
+  {
+    "ID": "214",
+    "output": "D"
+  },
+  {
+    "ID": "215",
+    "output": "C"
+  },
+  {
+    "ID": "216",
+    "output": "A"
+  },
+  {
+    "ID": "217",
+    "output": "D"
+  },
+  {
+    "ID": "218",
+    "output": "B"
+  },
+  {
+    "ID": "219",
+    "output": "C"
+  },
+  {
+    "ID": "220",
+    "output": "A"
+  },
+  {
+    "ID": "221",
+    "output": "A"
+  },
+  {
+    "ID": "222",
+    "output": "C"
+  },
+  {
+    "ID": "223",
+    "output": "B"
+  },
+  {
+    "ID": "224",
+    "output": "A"
+  },
+  {
+    "ID": "225",
+    "output": "D"
+  },
+  {
+    "ID": "226",
+    "output": "B"
+  },
+  {
+    "ID": "227",
+    "output": "C"
+  },
+  {
+    "ID": "228",
+    "output": "D"
+  },
+  {
+    "ID": "229",
+    "output": "D"
+  },
+  {
+    "ID": "230",
+    "output": "A"
+  },
+  {
+    "ID": "231",
+    "output": "D"
+  },
+  {
+    "ID": "232",
+    "output": "D"
+  },
+  {
+    "ID": "233",
+    "output": "B"
+  },
+  {
+    "ID": "234",
+    "output": "B"
+  },
+  {
+    "ID": "235",
+    "output": "D"
+  },
+  {
+    "ID": "236",
+    "output": "B"
+  },
+  {
+    "ID": "237",
+    "output": "D"
+  },
+  {
+    "ID": "238",
+    "output": "A"
+  },
+  {
+    "ID": "239",
+    "output": "D"
+  },
+  {
+    "ID": "240",
+    "output": "D"
+  },
+  {
+    "ID": "241",
+    "output": "B"
+  },
+  {
+    "ID": "242",
+    "output": "A"
+  },
+  {
+    "ID": "243",
+    "output": "C"
+  },
+  {
+    "ID": "244",
+    "output": "D"
+  },
+  {
+    "ID": "245",
+    "output": "A"
+  },
+  {
+    "ID": "246",
+    "output": "A"
+  },
+  {
+    "ID": "247",
+    "output": "D"
+  },
+  {
+    "ID": "248",
+    "output": "B"
+  },
+  {
+    "ID": "249",
+    "output": "B"
+  },
+  {
+    "ID": "250",
+    "output": "A"
+  },
+  {
+    "ID": "251",
+    "output": "C"
+  },
+  {
+    "ID": "252",
+    "output": "D"
+  },
+  {
+    "ID": "253",
+    "output": "A"
+  },
+  {
+    "ID": "254",
+    "output": "A"
+  },
+  {
+    "ID": "255",
+    "output": "D"
+  },
+  {
+    "ID": "256",
+    "output": "C"
+  },
+  {
+    "ID": "257",
+    "output": "A"
+  },
+  {
+    "ID": "258",
+    "output": "D"
+  },
+  {
+    "ID": "259",
+    "output": "B"
+  },
+  {
+    "ID": "260",
+    "output": "B"
+  },
+  {
+    "ID": "261",
+    "output": "B"
+  },
+  {
+    "ID": "262",
+    "output": "B"
+  },
+  {
+    "ID": "263",
+    "output": "D"
+  },
+  {
+    "ID": "264",
+    "output": "D"
+  },
+  {
+    "ID": "265",
+    "output": "D"
+  },
+  {
+    "ID": "266",
+    "output": "D"
+  },
+  {
+    "ID": "267",
+    "output": "C"
+  },
+  {
+    "ID": "268",
+    "output": "A"
+  },
+  {
+    "ID": "269",
+    "output": "A"
+  },
+  {
+    "ID": "270",
+    "output": "A"
+  },
+  {
+    "ID": "271",
+    "output": "C"
+  },
+  {
+    "ID": "272",
+    "output": "C"
+  },
+  {
+    "ID": "273",
+    "output": "B"
+  },
+  {
+    "ID": "274",
+    "output": "A"
+  },
+  {
+    "ID": "275",
+    "output": "A"
+  },
+  {
+    "ID": "276",
+    "output": "D"
+  },
+  {
+    "ID": "277",
+    "output": "D"
+  },
+  {
+    "ID": "278",
+    "output": "D"
+  },
+  {
+    "ID": "279",
+    "output": "A"
+  },
+  {
+    "ID": "280",
+    "output": "B"
+  },
+  {
+    "ID": "281",
+    "output": "D"
+  },
+  {
+    "ID": "282",
+    "output": "D"
+  },
+  {
+    "ID": "283",
+    "output": "B"
+  },
+  {
+    "ID": "284",
+    "output": "A"
+  },
+  {
+    "ID": "285",
+    "output": "C"
+  },
+  {
+    "ID": "286",
+    "output": "A"
+  },
+  {
+    "ID": "287",
+    "output": "A"
+  },
+  {
+    "ID": "288",
+    "output": "A"
+  },
+  {
+    "ID": "289",
+    "output": "A"
+  },
+  {
+    "ID": "290",
+    "output": "C"
+  },
+  {
+    "ID": "291",
+    "output": "D"
+  },
+  {
+    "ID": "292",
+    "output": "D"
+  },
+  {
+    "ID": "293",
+    "output": "D"
+  },
+  {
+    "ID": "294",
+    "output": "D"
+  },
+  {
+    "ID": "295",
+    "output": "A"
+  },
+  {
+    "ID": "296",
+    "output": "D"
+  },
+  {
+    "ID": "297",
+    "output": "C"
+  },
+  {
+    "ID": "298",
+    "output": "B"
+  },
+  {
+    "ID": "299",
+    "output": "B"
+  },
+  {
+    "ID": "300",
+    "output": "D"
+  },
+  {
+    "ID": "301",
+    "output": "C"
+  },
+  {
+    "ID": "302",
+    "output": "D"
+  },
+  {
+    "ID": "303",
+    "output": "C"
+  },
+  {
+    "ID": "304",
+    "output": "C"
+  },
+  {
+    "ID": "305",
+    "output": "D"
+  },
+  {
+    "ID": "306",
+    "output": "D"
+  },
+  {
+    "ID": "307",
+    "output": "D"
+  },
+  {
+    "ID": "308",
+    "output": "A"
+  },
+  {
+    "ID": "309",
+    "output": "C"
+  },
+  {
+    "ID": "310",
+    "output": "D"
+  },
+  {
+    "ID": "311",
+    "output": "A"
+  },
+  {
+    "ID": "312",
+    "output": "A"
+  },
+  {
+    "ID": "313",
+    "output": "C"
+  },
+  {
+    "ID": "314",
+    "output": "C"
+  },
+  {
+    "ID": "315",
+    "output": "D"
+  },
+  {
+    "ID": "316",
+    "output": "D"
+  },
+  {
+    "ID": "317",
+    "output": "C"
+  },
+  {
+    "ID": "318",
+    "output": "D"
+  },
+  {
+    "ID": "319",
+    "output": "D"
+  },
+  {
+    "ID": "320",
+    "output": "D"
+  },
+  {
+    "ID": "321",
+    "output": "D"
+  },
+  {
+    "ID": "322",
+    "output": "C"
+  },
+  {
+    "ID": "323",
+    "output": "D"
+  },
+  {
+    "ID": "324",
+    "output": "B"
+  }
+]

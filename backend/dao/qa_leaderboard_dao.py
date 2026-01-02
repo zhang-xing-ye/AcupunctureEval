@@ -68,20 +68,26 @@ def add_record(
         logger.error(f"插入 {llm_name} 的记录时发生错误: {str(e)}")
         return None
 
-def get_all_sorted_by_score(db: Session) -> List[QALeaderboard]:
+def get_all_sorted_by_score(db: Session, skip: int = 0, limit: int = 20) -> List[QALeaderboard]:
     """
     查询 qa_leaderboard 表中的所有记录，并按 avg_score 降序排列。
     
     参数:
         db (Session): 数据库会话对象
+        skip (int): 跳过的记录数（分页偏移量）
+        limit (int): 返回的最大记录数
         
     返回:
         List[QALeaderboard]: 排序后的记录列表
     """
     try:
-        # 查询所有记录并按 avg_score 降序排序
-        records = db.query(QALeaderboard).order_by(QALeaderboard.avg_score.desc()).all()
-        logger.info(f"成功查询 {len(records)} 条 QA 记录，按 avg_score 降序排列")
+        # 查询所有记录并按 avg_score 降序排序，支持分页
+        records = db.query(QALeaderboard)\
+            .order_by(QALeaderboard.avg_score.desc())\
+            .offset(skip)\
+            .limit(limit)\
+            .all()
+        logger.info(f"成功查询 {len(records)} 条 QA 记录（skip={skip}, limit={limit}），按 avg_score 降序排列")
         return records
     except SQLAlchemyError as e:
         logger.error(f"查询 QA 记录时发生错误: {str(e)}")
