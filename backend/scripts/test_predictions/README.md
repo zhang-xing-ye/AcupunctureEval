@@ -20,8 +20,10 @@
 
 ## 使用方式
 
-1. 运行脚本生成预测文件：
-   ```bash
+1. 运行脚本生成预测文件（建议在 backend/ 目录执行）：
+   ```powershell
+   cd e:\科研\中医Benchmark\AcupunctureEval\backend
+   conda activate acue
    python scripts/generate_test_predictions.py
    ```
 
@@ -32,6 +34,6 @@
 ## 重新生成
 
 如果标准答案文件有更新，重新运行脚本即可：
-```bash
+```powershell
 python scripts/generate_test_predictions.py
 ```

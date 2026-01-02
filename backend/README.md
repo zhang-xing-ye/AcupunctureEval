@@ -71,11 +71,19 @@ JSON 数组，每个元素是“父题”，至少包含：
 - `ID`（或 `id`）：父题 ID
 - `outputs`（或 `Outputs`）：按子题顺序排列的预测数组
 
-示例：
+示例（`outputs` 为“子题答案序列”，每个元素对应一个子题）：
 
 ```json
 [
 	{"ID": "A3-001", "outputs": ["A", "C"]}
+]
+```
+
+如果你的数据里子题答案本身是列表（例如 `"answer": ["A"]`），也允许：
+
+```json
+[
+	{"ID": "A3-001", "outputs": [["A"], ["C"]]}
 ]
 ```
 
@@ -91,6 +99,17 @@ python scripts/generate_test_predictions.py
 ```
 
 生成目录：`backend/scripts/test_predictions/`，内含文件与上传对应关系说明。
+
+## 标准答案数据集路径
+
+- VQA：`backend/datasets/vqa/`（文件名与目录见仓库实际结构）
+- QA：`backend/datasets/qa/`
+	- `A1.json`
+	- `A2.json`
+	- `A3.json`
+	- `A4.json`
+	- `B.json`
+	- `X.json`
 
 ## 代码入口（读代码顺序）
 

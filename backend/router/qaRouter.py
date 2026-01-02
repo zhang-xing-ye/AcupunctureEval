@@ -17,12 +17,12 @@ router = APIRouter(prefix="/qa", tags=["QA Leaderboard"])
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATASET_BASE_PATH = os.path.join(BASE_DIR, "datasets", "qa")
 
-A1_PATH = os.path.join(DATASET_BASE_PATH, "merged_A1.json")
-A2_PATH = os.path.join(DATASET_BASE_PATH, "merged_A2.json")
-A3_PATH = os.path.join(DATASET_BASE_PATH, "merged_A3.json")
-A4_PATH = os.path.join(DATASET_BASE_PATH, "merged_A4_.json")
-B_PATH = os.path.join(DATASET_BASE_PATH, "merged_B_.json")
-X_PATH = os.path.join(DATASET_BASE_PATH, "merged_X.json")
+A1_PATH = os.path.join(DATASET_BASE_PATH, "A1.json")
+A2_PATH = os.path.join(DATASET_BASE_PATH, "A2.json")
+A3_PATH = os.path.join(DATASET_BASE_PATH, "A3.json")
+A4_PATH = os.path.join(DATASET_BASE_PATH, "A4.json")
+B_PATH = os.path.join(DATASET_BASE_PATH, "B.json")
+X_PATH = os.path.join(DATASET_BASE_PATH, "X.json")
 
 
 def calculate_grouped_accuracy(

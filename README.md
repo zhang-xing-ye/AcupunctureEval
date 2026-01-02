@@ -5,6 +5,11 @@
 - 后端（FastAPI + SQLite）：提供 VQA 评测 API、记录并查询排行榜
 - 前端（Vue3 + Vite）：展示首页、数据集介绍、排行榜页面（当前排行榜为 mock 数据，尚未对接后端）
 
+文档分层（方案B）：
+
+- 后端细节见：`backend/README.md`
+- 前端细节见：`frontend/README.md`
+
 ---
 
 ## 你能用它做什么（当前能力）
@@ -165,7 +170,7 @@ npm run dev
 
 **预测文件格式要求**：
 - **扁平题型（A1/A2/X）**：JSON数组，每项包含 `ID` 和 `output`（单选用 `"A"`，多选用 `["A","C"]`）
-- **分组题型（A3/A4/B）**：JSON数组，每项包含父题 `ID` 和 `outputs`（按子题顺序的数组，如 `[["B"], ["C"]]`）
+- **分组题型（A3/A4/B）**：JSON数组，每项包含父题 `ID` 和 `outputs`（按子题顺序的数组；元素可以是 `"A"`，也可以是 `["A"]`，以兼容不同标准答案格式）
 
 **多选题 output 兼容格式**（等价）：
 
@@ -192,6 +197,14 @@ npm run dev
 - 避免：在业务代码中使用 `sys.path.append(...)` 这类硬编码路径
 
 更多说明见：`backend/README_IMPORTS.md`
+
+---
+
+## 标准答案数据集位置
+
+- VQA：`backend/datasets/vqa/`
+- QA：`backend/datasets/qa/`
+	- `A1.json` / `A2.json` / `A3.json` / `A4.json` / `B.json` / `X.json`
 
 ---
 

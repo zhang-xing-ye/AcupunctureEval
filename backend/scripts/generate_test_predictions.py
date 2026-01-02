@@ -64,9 +64,9 @@ def generate_qa_flat_predictions():
 
     # 扁平题型
     flat_types = {
-        "merged_A1.json": "a1_predictions.json",
-        "merged_A2.json": "a2_predictions.json",
-        "merged_X.json": "x_predictions.json"
+        "A1.json": "a1_predictions.json",
+        "A2.json": "a2_predictions.json",
+        "X.json": "x_predictions.json"
     }
 
     for src_name, dst_name in flat_types.items():
@@ -104,9 +104,9 @@ def generate_qa_grouped_predictions():
 
     # 分组题型
     grouped_types = {
-        "merged_A3.json": "a3_predictions.json",
-        "merged_A4_.json": "a4_predictions.json",
-        "merged_B_.json": "b_predictions.json"
+        "A3.json": "a3_predictions.json",
+        "A4.json": "a4_predictions.json",
+        "B.json": "b_predictions.json"
     }
 
     for src_name, dst_name in grouped_types.items():
