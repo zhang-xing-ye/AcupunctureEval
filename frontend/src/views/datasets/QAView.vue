@@ -295,12 +295,6 @@ const sections = ref([
     columns: qaColumns,
     data: tcmData,
     codeExample: JSON.stringify(tcmData[0], null, 2) // 将中医问答数据的第一条记录格式化为 JSON 字符串，用于代码示例展示
-    //       `
-    //   {
-    //     "question": "什么是虚呕？",
-    //     "answer": "虚呕是指脾胃虚弱，胃失和降，胃气上逆所致的呕吐。发病缓慢，病程较长。《景岳全书·杂证谟》：凡胃虚作呕者，其证不一，当知所辨。若胃脘不胀者，非实邪也；胸膈不痛者，非气逆也；内无热燥者，非火证也；外无寒热者，非表邪也。无食无火而忽为呕吐者，胃虚也；呕吐无常而时作时止者，胃虚也；食无所停而闻食则呕者，胃虚也；气无所逆而闻气则呕者，胃虚也；或身背、或食饮微寒即呕者，胃虚也；或吞酸，或嗳腐，时苦恶心，兀兀然、泛泛然冷咽靡宁者，胃虚也；或因病误治，妄用克伐寒凉，本无呕而致呕者，胃虚也；或朝食暮吐，暮食朝吐，食人中焦而不化者，胃虚也；食入下焦而不化者，土母无阳，命门虚也。治宜温补。",
-    //     "id": 1
-    // }`
   },
   {
     title: () => t('datasets.qa.acu.title'),
@@ -323,7 +317,7 @@ const sections = ref([
   {
     title: () => t('datasets.choice.a1.title'),
     description: () => t('datasets.choice.a1.desc'),
-    githubLink: 'https://github.com/FreedomIntelligence/CMB/blob/master/data/CMB-Exam/CMB-test/A1.json',
+    githubLink: 'https://github.com/zhang-xing-ye/AcupunctureEval/blob/main/datasets/qa/A1.json',
     columns: choiceColumns,
     data: a1Data,
     codeExample: JSON.stringify(a1Data[0], null, 2) // 将 A1 数据的第一条记录格式化为 JSON 字符串，用于代码示例展示
@@ -331,7 +325,7 @@ const sections = ref([
   {
     title: () => t('datasets.choice.a2.title'),
     description: () => t('datasets.choice.a2.desc'),
-    githubLink: 'https://github.com/FreedomIntelligence/CMB/blob/master/data/CMB-Exam/CMB-test/A2.json',
+    githubLink: 'https://github.com/zhang-xing-ye/AcupunctureEval/blob/main/datasets/qa/A2.json',
     columns: choiceColumns,
     data: a2Data,
     codeExample: JSON.stringify(a2Data[0], null, 2) // 将 A2 数据的第一条记录格式化为 JSON 字符串，用于代码示例展示
@@ -339,7 +333,7 @@ const sections = ref([
   {
     title: () => t('datasets.choice.a3.title'),
     description: () => t('datasets.choice.a3.desc'),
-    githubLink: 'https://github.com/FreedomIntelligence/CMB/blob/master/data/CMB-Exam/CMB-test/A3.json',
+    githubLink: 'https://github.com/zhang-xing-ye/AcupunctureEval/blob/main/datasets/qa/A3.json',
     columns: [...a3a4Columns],
     data: a3Data,
     codeExample: JSON.stringify(a3Data[0], null, 2) // 将 A3 数据的第一条记录格式化为 JSON 字符串，用于代码示例展示
@@ -347,7 +341,7 @@ const sections = ref([
   {
     title: () => t('datasets.choice.a4.title'),
     description: () => t('datasets.choice.a4.desc'),
-    githubLink: 'https://github.com/FreedomIntelligence/CMB/blob/master/data/CMB-Exam/CMB-test/A4.json',
+    githubLink: 'https://github.com/zhang-xing-ye/AcupunctureEval/blob/main/datasets/qa/A4.json',
     columns: [...a3a4Columns],
     data: a4Data, // Placeholder
     codeExample: JSON.stringify(a4Data[0], null, 2) // 将 A4 数据的第一条记录格式化为 JSON 字符串，用于代码示例展示
@@ -355,7 +349,7 @@ const sections = ref([
   {
     title: () => t('datasets.choice.b.title'),
     description: () => t('datasets.choice.b.desc'),
-    githubLink: 'https://github.com/FreedomIntelligence/CMB/blob/master/data/CMB-Exam/CMB-test/B.json',
+    githubLink: 'https://github.com/zhang-xing-ye/AcupunctureEval/blob/main/datasets/qa/B.json',
     columns: [...bColumns],
     data: bData, // Placeholder
     codeExample: JSON.stringify(bData[0], null, 2) // 将 B 数据的第一条记录格式化为 JSON 字符串，用于代码示例展示
@@ -363,7 +357,7 @@ const sections = ref([
   {
     title: () => t('datasets.choice.x.title'),
     description: () => t('datasets.choice.x.desc'),
-    githubLink: 'https://github.com/FreedomIntelligence/CMB/blob/master/data/CMB-Exam/CMB-test/X.json',
+    githubLink: 'https://github.com/zhang-xing-ye/AcupunctureEval/blob/main/datasets/qa/X.json',
     columns: choiceColumns,
     data: xData, // Placeholder
     codeExample: JSON.stringify(xData[0], null, 2) // 将 X 数据的第一条记录格式化为 JSON 字符串，用于代码示例展示

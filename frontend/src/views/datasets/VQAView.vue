@@ -193,7 +193,7 @@ const sections = ref([
     {
         title: () => t('datasets.vqa.single.title'),
         description: () => t('datasets.vqa.single.description'),
-        githubLink: 'https://github.com/FreedomIntelligence/CMB/blob/master/data/CMB-Exam/CMB-test/A1.json',
+        githubLink: 'https://github.com/zhang-xing-ye/AcupunctureEval/blob/main/datasets/vqa/%E7%AC%AC%E4%B8%80%E7%B1%BB%E9%A2%98%E5%9E%8B/%E5%8D%95%E9%80%89%E9%A2%98_324%E9%A2%98.json',
         columns: baseColumns,
         data: vqaSingleData,
         scrollX: 1300,
@@ -202,7 +202,7 @@ const sections = ref([
     {
         title: () => t('datasets.vqa.multi.title'),
         description: () => t('datasets.vqa.multi.description'),
-        githubLink: '',
+        githubLink: 'https://github.com/zhang-xing-ye/AcupunctureEval/blob/main/datasets/vqa/%E7%AC%AC%E4%B8%80%E7%B1%BB%E9%A2%98%E5%9E%8B/%E5%A4%9A%E9%80%89%E9%A2%98_600%E9%A2%98.json',
         columns: baseColumns,
         data: vqaMultiData,
         scrollX: 1300,
@@ -211,7 +211,7 @@ const sections = ref([
     {
         title: () => t('datasets.vqa.type2.title'),
         description: () => t('datasets.vqa.type2.description'),
-        githubLink: '',
+        githubLink: 'https://github.com/zhang-xing-ye/AcupunctureEval/blob/main/datasets/vqa/%E7%AC%AC%E4%BA%8C%E7%B1%BB%E9%A2%98%E5%9E%8B/%E5%AE%9A%E4%BD%8D%E9%A2%98_37%E9%A2%98.json',
         columns: acupointColumns,
         data: vqaType2Data,
         codeExample: JSON.stringify(vqaType2Data[0], null, 2) // 将 VQA 类型2数据的第一条记录格式化为 JSON 字符串，用于代码示例展示
@@ -219,7 +219,7 @@ const sections = ref([
     {
         title: () => t('datasets.vqa.type3.title'),
         description: () => t('datasets.vqa.type3.description'),
-        githubLink: '',
+        githubLink: 'https://github.com/zhang-xing-ye/AcupunctureEval/blob/main/datasets/vqa/%E7%AC%AC%E4%B8%89%E7%B1%BB%E9%A2%98%E5%9E%8B/%E9%92%88%E7%81%B8%E6%93%8D%E4%BD%9C%E9%A2%98_35%E9%A2%98.json',
         columns: acupointColumns,
         data: vqaType3Data,
         scrollX: 1300,

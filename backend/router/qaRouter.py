@@ -210,4 +210,8 @@ async def get_all_data(skip: int = 0, limit: int = 20, db: Session = Depends(get
     获取QA数据表中所有记录，支持分页。
     """
     records = qa_leaderboard_dao.get_all_sorted_by_score(db, skip=skip, limit=limit)
-    return records
+    total = qa_leaderboard_dao.get_total_count(db)
+    return {
+        "total": total,
+        "items": records
+    }

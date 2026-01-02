@@ -1,7 +1,7 @@
 <template>
     <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
         <n-data-table :columns="columns" :data="data" :pagination="pagination" :bordered="false" :single-line="false"
-            :row-class-name="rowClassName" size="large" />
+            :row-class-name="rowClassName" size="large" :remote="true" />
     </div>
 </template>
 

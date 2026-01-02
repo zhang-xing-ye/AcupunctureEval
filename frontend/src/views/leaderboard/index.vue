@@ -11,7 +11,8 @@
             @update:value="handleTabChange">
             <n-tab-pane name="qa_objective" :tab="t('leaderboard.tabs.qa_objective')">
                 <div class="mt-6">
-                    <LeaderboardTable :columns="qaObjectiveColumns" :data="qaObjectiveData" />
+                    <LeaderboardTable :columns="qaObjectiveColumns" :data="qaObjectiveData"
+                        :pagination="qaPagination" />
                 </div>
             </n-tab-pane>
             <n-tab-pane name="vqa" :tab="t('leaderboard.tabs.vqa')">
@@ -29,55 +30,28 @@ import { useI18n } from 'vue-i18n'
 import { NTabs, NTabPane, useMessage } from 'naive-ui'
 import LeaderboardTable from './components/LeaderboardTable.vue'
 import { getVqaLeaderboard } from '@/api/vqaLeaderboard'
+import { getQALeaderboard } from '@/api/qaLeaderboard'
 
 const { t } = useI18n()
 const message = useMessage()
 
-// --- Mock Data Generator for QA ---
-const generateData = (type) => {
-    const models = [
-        { name: 'TCM-LLM-Pro', org: 'TCM-AI Lab', params: '72B' },
-        { name: 'HuatuoGPT-II', org: 'CUHK-SZ', params: '34B' },
-        { name: 'ShenNong-TCM', org: 'TCM Research', params: '13B' },
-        { name: 'Qwen-72B-Chat', org: 'Alibaba Cloud', params: '72B' },
-        { name: 'GPT-4o', org: 'OpenAI', params: '-' },
-        { name: 'Yi-34B-Chat', org: '01.AI', params: '34B' },
-        { name: 'Baichuan2-13B', org: 'Baichuan', params: '13B' },
-        { name: 'ChatGLM3-6B', org: 'Zhipu AI', params: '6B' },
-        { name: 'InternLM2-20B', org: 'Shanghai AI Lab', params: '20B' },
-        { name: 'Llama-3-70B', org: 'Meta', params: '70B' }
-    ]
-
-    return models.map((model, index) => {
-        const baseScore = 90 - (index * 2.5) + (Math.random() * 2)
-
-        if (type === 'qa_objective') {
-            const a1 = (baseScore + Math.random() * 5 - 2).toFixed(1)
-            const a2 = (baseScore + Math.random() * 5 - 2).toFixed(1)
-            const a3 = (baseScore + Math.random() * 5 - 2).toFixed(1)
-            const a4 = (baseScore + Math.random() * 5 - 2).toFixed(1)
-            const b = (baseScore + Math.random() * 5 - 2).toFixed(1)
-            const x = (baseScore + Math.random() * 5 - 2).toFixed(1)
-            // Calculate actual average
-            const avg = (parseFloat(a1) + parseFloat(a2) + parseFloat(a3) + parseFloat(a4) + parseFloat(b) + parseFloat(x)) / 6
-
-            return {
-                rank: index + 1,
-                model: model.name,
-                a1,
-                a2,
-                a3,
-                a4,
-                b,
-                x,
-                average: avg.toFixed(1)
-            }
-        }
-    })
-}
-
 // Data for each tab
-const qaObjectiveData = ref(generateData('qa_objective').sort((a, b) => b.average - a.average).map((item, index) => ({ ...item, rank: index + 1 })))
+const qaObjectiveData = ref([])
+const qaPagination = ref({
+    page: 1,
+    pageSize: 10,
+    itemCount: 0,
+    onChange: (page) => {
+        qaPagination.value.page = page
+        fetchQaData()
+    },
+    onUpdatePageSize: (pageSize) => {
+        qaPagination.value.pageSize = pageSize
+        qaPagination.value.page = 1
+        fetchQaData()
+    }
+})
+
 const vqaData = ref([])
 const pagination = ref({
     page: 1,
@@ -114,8 +88,31 @@ const fetchVqaData = async () => {
     pagination.value.itemCount = response.total
 }
 
+// Fetch QA Data from API
+const fetchQaData = async () => {
+    const params = {
+        skip: (qaPagination.value.page - 1) * qaPagination.value.pageSize,
+        limit: qaPagination.value.pageSize
+    }
+    const response = await getQALeaderboard(params)
+    // 数据映射
+    qaObjectiveData.value = response.items.map((item, index) => ({
+        rank: (qaPagination.value.page - 1) * qaPagination.value.pageSize + index + 1,
+        model: item.llm_name,
+        a1: (item.a1_score * 100).toFixed(2),
+        a2: (item.a2_score * 100).toFixed(2),
+        a3: (item.a3_score * 100).toFixed(2),
+        a4: (item.a4_score * 100).toFixed(2),
+        b: (item.b_score * 100).toFixed(2),
+        x: (item.x_score * 100).toFixed(2),
+        average: (item.avg_score * 100).toFixed(2)
+    }))
+    qaPagination.value.itemCount = response.total
+}
+
 onMounted(() => {
     fetchVqaData()
+    fetchQaData()
 })
 
 

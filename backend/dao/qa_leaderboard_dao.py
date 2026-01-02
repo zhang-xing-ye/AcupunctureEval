@@ -92,3 +92,20 @@ def get_all_sorted_by_score(db: Session, skip: int = 0, limit: int = 20) -> List
     except SQLAlchemyError as e:
         logger.error(f"查询 QA 记录时发生错误: {str(e)}")
         return []
+
+def get_total_count(db: Session) -> int:
+    """
+    查询 qa_leaderboard 表中的记录总数。
+    
+    参数:
+        db (Session): 数据库会话对象
+        
+    返回:
+        int: 记录总数
+    """
+    try:
+        count = db.query(QALeaderboard).count()
+        return count
+    except SQLAlchemyError as e:
+        logger.error(f"查询 QA 记录总数时发生错误: {str(e)}")
+        return 0

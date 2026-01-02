@@ -95,7 +95,7 @@ const menuOptions = computed(() => [
         key: 'evaluate',
     },
     {
-        label: () => h('a', { href: 'https://github.com/your-repo', target: '_blank', rel: 'noopener noreferrer', class: 'flex items-center gap-1' }, {
+        label: () => h('a', { href: 'https://github.com/zhang-xing-ye/AcupunctureEval', target: '_blank', rel: 'noopener noreferrer', class: 'flex items-center gap-1' }, {
             default: () => [
                 t('nav.github'),
                 h('span', { class: 'text-xs opacity-50' }, '↗')
