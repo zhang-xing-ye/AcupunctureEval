@@ -30,13 +30,17 @@ export default {
             val_test_title: 'AcupunctureQA客观题分类',
             val_test_desc: '客观题数据来源于教科书，其共有1735个样本涵盖经络腧穴、刺灸和中医病症三大类；其分为1516个样本的验证集与219个样本的测试集。每一类数据集中都包含A1、A2、A3、A4、B与X型题',
             dataset_classify_title: 'AcupunctureQA主观题分类',
-            dataset_classify_desc: '主观题共有19841个样本，涵盖四大主要领域：针灸、中医证候、艾灸和穴位',
+            dataset_classify_desc: '主观题共有45962个样本，涵盖四大主要领域：针灸、中医证候、艾灸和推拿',
             vqa_classify_title: 'AcupunctureVQA客观题分类',
             vqa_classify_desc: 'AcupunctureVQA客观题共有996个样本，分为单选题、多选题、针灸操作题、穴位定位题',
             xuewei_classify_title: '人体穴位分类',
             xuewei_classify_desc: '在视频数据中共涉及到人体的20种穴位，主要的有血海穴、阳陵泉穴、阴陵泉穴和足三里穴',
             pig_xuewei_title: '猪体穴位分类',
-            pig_xuewei_desc: '在视频数据中共涉及到猪体7种穴位，分别是',
+            pig_xuewei_desc: '在视频数据中共涉及到猪体7种穴位',
+            tcm_symptom_title: '耳鼻喉科中中医症状的数据可视化',
+            tcm_symptom_desc: '耳鼻喉科中中医症状的数据聚类图',
+            figure_strice_title: '手太阴肺经穴位的数据可视化',
+            figure_strice_desc: '手太阴肺经穴位的数据聚类图'
         },
         charts: {
             chart1_title: '数据集分布概览',
@@ -78,28 +82,28 @@ export default {
         },
         choice: {
             a1: {
-                title: 'A1 型题 (单句型最佳选择题)',
-                desc: '每道试题由1个题干和5个供选择的备选答案组成。题干以叙述一个单一要素为特征，是为“单句型”。'
+                title: 'A1 型题',
+                desc: '每道试题由1个题干和5个供选择的备选答案组成。每题只有一个正确答案。'
             },
             a2: {
-                title: 'A2 型题 (病例摘要型最佳选择题)',
-                desc: '试题结构是由1个简要病历作为题干、5个供选择的备选答案组成，备选答案中只有1个是最佳选择。'
+                title: 'A2 型题',
+                desc: '试题结构是由1个简要病历作为题干、5个供选择的备选答案组成，每题只有一个正确答案。'
             },
             a3: {
-                title: 'A3 型题 (病例组型最佳选择题)',
-                desc: '试题结构是开始叙述一个以患者为中心的临床情景，然后提出2个～3个相关问题。'
+                title: 'A3 型题',
+                desc: '试题结构是开始叙述一个以患者为中心的临床情景，然后提出2个个相关问题。每题只有一个正确答案。'
             },
             a4: {
-                title: 'A4 型题 (病例串型最佳选择题)',
-                desc: '开始叙述一个以单一患者或家庭为中心的临床情景，然后提出3个～6个相关问题。'
+                title: 'A4 型题',
+                desc: '试题结构是开始叙述一个以患者为中心的临床情景，然后提出3个相关问题。每题只有一个正确答案。'
             },
             b: {
-                title: 'B 型题 (标准配伍题)',
-                desc: '试题开始是5个备选答案，备选答案后提出至少2道试题，要求应试者为每一道试题选择一个与其关系密切的答案。'
+                title: 'B 型题',
+                desc: '试题开始是5个备选答案，备选答案后提出2道试题，要求应试者为每一道试题选择一个正确答案。'
             },
             x: {
-                title: 'X 型题 (多选题)',
-                desc: '由1个题干和5个备选答案组成。题干在前，备选答案在后。要求考生从5个备选答案中选出2个或2个以上的正确答案。'
+                title: 'X 型题',
+                desc: '由1个题干和5个备选答案组成。多选题型每题有多个正确答案。'
             }
         },
         qa: {
@@ -114,7 +118,7 @@ export default {
             },
             mra: {
                 title: '病例分析问答对',
-                desc: '病例分析题有100个样本包含病例的病因病机等七个纬度'
+                desc: '病例分析题有100个样本包含病例的病因病机等7个纬度'
             }
         },
         vqa: {
@@ -187,6 +191,10 @@ export default {
         qa_instruction: '请分别上传以下6个类型的 JSON 预测结果文件。',
         vqa_instruction: '请分别上传以下4个类型的 JSON 预测结果文件。',
         wait_upload: '请等待所有文件上传完成',
+        reference_button: '参考案例',
+        reference_title: '参考案例',
+        reference_description: '以下是提交文件的格式示例，请确保您的 JSON 文件中以output字段作为模型输出。',
+        close: '关闭',
         file_types: {
             qa: {
                 a1: 'A1型题',

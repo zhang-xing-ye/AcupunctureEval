@@ -154,6 +154,12 @@ const images = ref([
         loaded: false
     },
     {
+        src: '/TCM_symptom_semantic_clusters_irregular.jpg',
+        titleKey: 'home.images.tcm_symptom_title',
+        descKey: 'home.images.tcm_symptom_desc',
+        loaded: false
+    },
+    {
         src: '/vqa_classify.png',
         titleKey: 'home.images.vqa_classify_title',
         descKey: 'home.images.vqa_classify_desc',
@@ -163,6 +169,12 @@ const images = ref([
         src: '/xuewei_classify.png',
         titleKey: 'home.images.xuewei_classify_title',
         descKey: 'home.images.xuewei_classify_desc',
+        loaded: false
+    },
+    {
+        src: '/Figure_Strict_Acupoint_Clusters.jpg',
+        titleKey: 'home.images.figure_strice_title',
+        descKey: 'home.images.figure_strice_desc',
         loaded: false
     },
     {

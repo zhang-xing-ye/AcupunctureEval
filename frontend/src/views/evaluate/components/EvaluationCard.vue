@@ -1,7 +1,12 @@
 <template>
     <n-card :title="title" size="large" class="shadow-sm hover:shadow-md transition-shadow">
         <template #header-extra>
-            <n-tag type="info" size="small">JSON</n-tag>
+            <div class="flex items-center gap-2">
+                <n-button v-if="referenceCode" size="small" secondary type="primary" @click="showModal = true">
+                    {{ t('evaluate.reference_button') }}
+                </n-button>
+                <n-tag type="info" size="small">JSON</n-tag>
+            </div>
         </template>
 
         <!-- 顶部说明文案 -->
@@ -58,12 +63,27 @@
             </n-text>
         </div>
     </n-card>
+
+    <!-- Reference Modal -->
+    <n-modal v-model:show="showModal" preset="card" :title="t('evaluate.reference_title')" class="w-[95vw] max-w-3xl"
+        :style="{ width: '800px' }">
+        <div class="space-y-4">
+            <p class="text-gray-600">{{ referenceText || t('evaluate.reference_description') }}</p>
+            <div class="bg-gray-50 p-4 rounded-md border overflow-auto max-h-[60vh]">
+                <n-code :code="referenceCode" language="json" :hljs="hljs" />
+            </div>
+        </div>
+    </n-modal>
 </template>
 
 <script setup>
 import { ref, computed, reactive } from 'vue'
 import { useI18n } from 'vue-i18n'
-import { useMessage, NCard, NUpload, NButton, NTag, NText, NInput } from 'naive-ui'
+import { useMessage, NCard, NUpload, NButton, NTag, NText, NInput, NModal, NCode } from 'naive-ui'
+import hljs from 'highlight.js/lib/core'
+import json from 'highlight.js/lib/languages/json'
+
+hljs.registerLanguage('json', json)
 
 const props = defineProps({
     title: {
@@ -91,6 +111,14 @@ const props = defineProps({
     showMeta: {
         type: Boolean,
         default: true
+    },
+    referenceCode: {
+        type: String,
+        default: ''
+    },
+    referenceText: {
+        type: String,
+        default: ''
     }
 })
 
@@ -98,6 +126,9 @@ const emit = defineEmits(['submit'])
 
 const { t } = useI18n()
 const message = useMessage()
+
+// Modal state
+const showModal = ref(false)
 
 // 存储已上传的文件对象: { a1: fileObj, a2: null, ... }
 const files = reactive(

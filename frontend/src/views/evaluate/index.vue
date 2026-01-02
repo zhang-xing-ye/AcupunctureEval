@@ -10,12 +10,13 @@
             <!-- QA 客观题评估卡片 -->
             <EvaluationCard ref="qaCardRef" :title="t('evaluate.qa_title')" :instruction="t('evaluate.qa_instruction')"
                 :file-types="qaFileTypes" i18n-prefix="evaluate.file_types.qa" :loading="isQaSubmitting"
-                @submit="handleQaSubmit" />
+                :reference-code="qaReferenceJson" @submit="handleQaSubmit" />
 
             <!-- VQA 评估卡片 -->
             <EvaluationCard ref="vqaCardRef" :title="t('evaluate.vqa_title')"
                 :instruction="t('evaluate.vqa_instruction')" :file-types="vqaFileTypes"
-                i18n-prefix="evaluate.file_types.vqa" :loading="isVqaSubmitting" @submit="handleVqaSubmit" />
+                i18n-prefix="evaluate.file_types.vqa" :loading="isVqaSubmitting" :reference-code="vqaReferenceJson"
+                @submit="handleVqaSubmit" />
         </div>
     </div>
 </template>
@@ -37,6 +38,41 @@ const vqaCardRef = ref(null)
 // 提交加载状态
 const isQaSubmitting = ref(false)
 const isVqaSubmitting = ref(false)
+
+// 参考案例数据
+const qaReferenceJson = JSON.stringify([
+    {
+        "ID": "1",
+        "question": "最早且体系比较完整的针灸专书是（ ）",
+        "options": [
+            "A.《针灸甲乙经》",
+            "B.《灵枢》",
+            "C.《明堂孔穴针灸治要》",
+            "D.《针灸资生经》",
+            "E.《十四经发挥》"
+        ],
+        "output": "A"
+    },
+], null, 4)
+
+const vqaReferenceJson = JSON.stringify([
+    {
+        "ID": "1",
+        "Type": "Image Understanding",
+        "Class": "手太阴腧穴",
+        "Images": [
+            "图3-2-2.jpeg"
+        ],
+        "Question": "图片中可能包含选项中的哪些穴位？",
+        "Options": [
+            "A. 列缺",
+            "B. 云门",
+            "C. 孔最",
+            "D. 经渠"
+        ],
+        "output": "B"
+    },
+], null, 4)
 
 // --- 配置定义 ---
 
@@ -89,28 +125,35 @@ const handleQaSubmit = async (data) => {
  */
 const handleVqaSubmit = async ({ llm_name, llm_org, files }) => {
     isVqaSubmitting.value = true
+    try {
+        const formData = new FormData()
+        formData.append('llm_name', llm_name)
+        if (llm_org) {
+            formData.append('llm_org', llm_org)
+        }
 
-    const formData = new FormData()
-    formData.append('llm_name', llm_name)
-    if (llm_org) {
-        formData.append('llm_org', llm_org)
+        // 映射文件字段到后端接口要求的字段名
+        // backend/router/vqaRouter.py:
+        // file_type_one_single, file_type_one_multi, file_type_two, file_type_three
+
+        // files[key] 是 Naive UI 的 UploadFileInfo 对象，其中的 file 属性是真实的 JS File 对象
+        if (files.single?.file) formData.append('file_type_one_single', files.single.file)
+        if (files.multi?.file) formData.append('file_type_one_multi', files.multi.file)
+        if (files.localization?.file) formData.append('file_type_two', files.localization.file)
+        if (files.operation?.file) formData.append('file_type_three', files.operation.file)
+
+        await vqaEvaluate(formData)
+
+        message.success(t('evaluate.success_message'))
+        // 重置表单
+        vqaCardRef.value?.reset()
+    } catch (error) {
+        console.error('VQA Evaluation Error:', error)
+        const errorMsg = error.response?.data?.detail || error.message || 'Evaluation failed'
+        message.error(errorMsg)
+    } finally {
+        isVqaSubmitting.value = false
     }
-
-    // 映射文件字段到后端接口要求的字段名
-    // backend/router/vqaRouter.py:
-    // file_type_one_single, file_type_one_multi, file_type_two, file_type_three
-
-    // files[key] 是 Naive UI 的 UploadFileInfo 对象，其中的 file 属性是真实的 JS File 对象
-    if (files.single?.file) formData.append('file_type_one_single', files.single.file)
-    if (files.multi?.file) formData.append('file_type_one_multi', files.multi.file)
-    if (files.localization?.file) formData.append('file_type_two', files.localization.file)
-    if (files.operation?.file) formData.append('file_type_three', files.operation.file)
-
-    await vqaEvaluate(formData)
-
-    message.success(t('evaluate.success_message'))
-    // 重置表单
-    vqaCardRef.value?.reset()
 }
 </script>
 

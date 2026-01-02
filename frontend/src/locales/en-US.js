@@ -30,13 +30,17 @@ export default {
             val_test_title: 'AcupunctureQA Objective Questions Classification',
             val_test_desc: 'The objective question data originates from textbooks, totaling 1,735 samples covering three major categories: Meridians and Acupoints, Acupuncture and Moxibustion, and TCM Syndromes. It is divided into a validation set of 1,516 samples and a test set of 219 samples. Each category includes question types A1, A2, A3, A4, B, and X.',
             dataset_classify_title: 'AcupunctureQA Subjective Questions Classification',
-            dataset_classify_desc: 'There are 19,841 subjective question samples, covering four main domains: Acupuncture, TCM Syndromes, Moxibustion, and Acupoints.',
+            dataset_classify_desc: 'There are 45,962 subjective question samples, covering four main domains: Acupuncture, TCM Syndromes, Moxibustion, and Massage.',
             vqa_classify_title: 'AcupunctureVQA Objective Questions Classification',
             vqa_classify_desc: 'AcupunctureVQA objective questions consist of 996 samples, categorized into Single Choice, Multiple Choice, Acupuncture Manipulation, and Acupoint Localization.',
             xuewei_classify_title: 'Human Acupoint Classification',
             xuewei_classify_desc: 'The video data involves 20 types of human acupoints, mainly including Xuehai, Yanglingquan, Yinlingquan, and Zusanli.',
             pig_xuewei_title: 'Pig Acupoint Classification',
-            pig_xuewei_desc: 'The video data involves 7 types of pig acupoints, specifically',
+            pig_xuewei_desc: 'The video data involves 7 types of pig acupoints.',
+            tcm_symptom_title: 'Data Visualization of TCM Symptoms in Otorhinolaryngology',
+            tcm_symptom_desc: 'Data Clustering Chart of TCM Symptoms in Otorhinolaryngology',
+            figure_strice_title: 'Data Visualization of Acupoints of the Lung Meridian of Hand-Taiyin',
+            figure_strice_desc: 'Data Clustering Chart of Acupoints of the Lung Meridian of Hand-Taiyin'
         },
         charts: {
             chart1_title: 'Dataset Distribution Overview',
@@ -103,17 +107,18 @@ export default {
             }
         },
         qa: {
+            desc: 'AcupunctureQA consists of three parts: objective multiple-choice questions, subjective Q&A, and case analysis. The data for objective questions and case analysis are derived from textbooks rather than scattered internet question banks, ensuring data quality. Among them, there are 1,735 objective question samples covering three major categories: Meridians and Acupoints, Acupuncture and Moxibustion, and TCM Syndromes; the case analysis questions contain 100 samples, covering seven dimensions such as etiology and pathogenesis. The subjective Q&A contains 45,962 Q&A pair samples, covering four main domains: Acupuncture, TCM Syndromes, Moxibustion, and Massage.',
             tcm: {
-                title: 'TCM QA',
-                desc: 'QA dataset for TCM theory and clinical knowledge.'
+                title: 'TCM Disease Q&A Pairs',
+                desc: 'The TCM Disease Q&A dataset covers 4 departments and 108 diseases.'
             },
             acu: {
-                title: 'ACU QA (Acupuncture)',
-                desc: 'Professional QA data focused on acupuncture.'
+                title: 'Acupuncture Domain Q&A Pairs',
+                desc: 'The Acupuncture Domain Q&A dataset contains a total of 20,841 data entries, including 5,205 for Acupuncture, 644 for Moxibustion, 12,576 for Acupoints, and 1,416 for Massage.'
             },
             mra: {
-                title: 'MRA QA (Case Analysis)',
-                desc: 'Analysis and diagnostic QA based on real clinical cases.'
+                title: 'Case Analysis Q&A Pairs',
+                desc: 'The Case Analysis questions consist of 100 samples covering 7 dimensions including etiology and pathogenesis.'
             }
         },
         vqa: {
@@ -186,6 +191,10 @@ export default {
         qa_instruction: 'Please upload the following 6 JSON prediction files separately.',
         vqa_instruction: 'Please upload the following 4 JSON prediction files separately.',
         wait_upload: 'Please wait for all files to finish uploading',
+        reference_button: 'Reference Case',
+        reference_title: 'Reference Case',
+        reference_description: 'The following is an example of the submission file format. Please ensure your JSON file contains an output field for model predictions.',
+        close: 'Close',
         file_types: {
             qa: {
                 a1: 'Type A1',
