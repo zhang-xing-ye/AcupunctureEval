@@ -317,7 +317,7 @@ const sections = ref([
   {
     title: () => t('datasets.choice.a1.title'),
     description: () => t('datasets.choice.a1.desc'),
-    githubLink: 'https://github.com/zhang-xing-ye/AcupunctureEval/blob/main/datasets/qa/A1.json',
+    githubLink: 'https://anonymous.4open.science/r/AcupunctureEval/blob/main/datasets/qa/A1.json',
     columns: choiceColumns,
     data: a1Data,
     codeExample: JSON.stringify(a1Data[0], null, 2) // 将 A1 数据的第一条记录格式化为 JSON 字符串，用于代码示例展示
@@ -325,7 +325,7 @@ const sections = ref([
   {
     title: () => t('datasets.choice.a2.title'),
     description: () => t('datasets.choice.a2.desc'),
-    githubLink: 'https://github.com/zhang-xing-ye/AcupunctureEval/blob/main/datasets/qa/A2.json',
+    githubLink: 'https://anonymous.4open.science/r/AcupunctureEval/blob/main/datasets/qa/A2.json',
     columns: choiceColumns,
     data: a2Data,
     codeExample: JSON.stringify(a2Data[0], null, 2) // 将 A2 数据的第一条记录格式化为 JSON 字符串，用于代码示例展示
@@ -333,7 +333,7 @@ const sections = ref([
   {
     title: () => t('datasets.choice.a3.title'),
     description: () => t('datasets.choice.a3.desc'),
-    githubLink: 'https://github.com/zhang-xing-ye/AcupunctureEval/blob/main/datasets/qa/A3.json',
+    githubLink: 'https://anonymous.4open.science/r/AcupunctureEval/blob/main/datasets/qa/A3.json',
     columns: [...a3a4Columns],
     data: a3Data,
     codeExample: JSON.stringify(a3Data[0], null, 2) // 将 A3 数据的第一条记录格式化为 JSON 字符串，用于代码示例展示
@@ -341,7 +341,7 @@ const sections = ref([
   {
     title: () => t('datasets.choice.a4.title'),
     description: () => t('datasets.choice.a4.desc'),
-    githubLink: 'https://github.com/zhang-xing-ye/AcupunctureEval/blob/main/datasets/qa/A4.json',
+    githubLink: 'https://anonymous.4open.science/r/AcupunctureEval/blob/main/datasets/qa/A4.json',
     columns: [...a3a4Columns],
     data: a4Data, // Placeholder
     codeExample: JSON.stringify(a4Data[0], null, 2) // 将 A4 数据的第一条记录格式化为 JSON 字符串，用于代码示例展示
@@ -349,7 +349,7 @@ const sections = ref([
   {
     title: () => t('datasets.choice.b.title'),
     description: () => t('datasets.choice.b.desc'),
-    githubLink: 'https://github.com/zhang-xing-ye/AcupunctureEval/blob/main/datasets/qa/B.json',
+    githubLink: 'https://anonymous.4open.science/r/AcupunctureEval/blob/main/datasets/qa/B.json',
     columns: [...bColumns],
     data: bData, // Placeholder
     codeExample: JSON.stringify(bData[0], null, 2) // 将 B 数据的第一条记录格式化为 JSON 字符串，用于代码示例展示
@@ -357,7 +357,7 @@ const sections = ref([
   {
     title: () => t('datasets.choice.x.title'),
     description: () => t('datasets.choice.x.desc'),
-    githubLink: 'https://github.com/zhang-xing-ye/AcupunctureEval/blob/main/datasets/qa/X.json',
+    githubLink: 'https://anonymous.4open.science/r/AcupunctureEval/blob/main/datasets/qa/X.json',
     columns: choiceColumns,
     data: xData, // Placeholder
     codeExample: JSON.stringify(xData[0], null, 2) // 将 X 数据的第一条记录格式化为 JSON 字符串，用于代码示例展示
