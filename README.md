@@ -13,7 +13,6 @@
 </p>
 
 <p align="center">
-  <a href="#-quick-start">🚀 Quick Start</a> •
   <a href="#-evaluation-channel">📊 Evaluation</a> •
   <a href="#-license">📄 License</a>
 </p>
@@ -122,41 +121,6 @@ A video dataset regarding practical acupuncture point operations, with a total o
     ],
 }
 ```
-
-<a id="-quick-start"></a>
-
-## 🚀 Quick Start
-
-This project contains a separated frontend and backend architecture: FastAPI Backend + Vue3 Frontend.
-
-### 1) Backend Environment Configuration & Startup
-```powershell
-cd backend
-
-# Create environment
-conda create -n acue python=3.12
-conda activate acue
-pip install -r requirements.txt
-
-# Initialize database
-python init_db.py
-
-# Start service
-fastapi dev main.py
-```
-After startup, access API documentation: `http://127.0.0.1:8000/docs`
-
-### 2) Frontend Environment Configuration & Startup
-```powershell
-cd frontend
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-```
-After startup, access the page: `http://127.0.0.1:5173/`
 
 <a id="-evaluation-channel"></a>
 
