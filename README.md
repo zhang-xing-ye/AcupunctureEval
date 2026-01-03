@@ -1,14 +1,15 @@
 # AcupunctureEval
 
 <div align="center">
-    <img src="frontend/public/vite.svg" width="100" height="100" alt="Logo">
+    <img src="frontend/public/logo.svg" width="100" height="100" alt="Logo">
 </div>
+
 
 <div align="center">
 
 **Acupuncture/TCM Question Bank Evaluation & Leaderboard Platform**
 
-[📃 Paper](#) • [🌐 Website](http://localhost:5173) • [🤗 HuggingFace](#)
+[📃 Paper](https://openreview.net/forum?id=YyJBqE1ERp) • [🌐 Website](https://www.AcupunctureEval.daytime001.xin)
 
 [中文](README_zh.md) | English
 
@@ -29,7 +30,7 @@ cd AcupunctureEval
 
 ## 🥇 Leaderboard
 
-Please verify the latest model rankings on the official [Leaderboard](http://localhost:5173/leaderboard) after starting the service.
+Please verify the latest model rankings on the official [Leaderboard](https://www.AcupunctureEval.daytime001.xin) after starting the service.
 
 ## 🥸 Dataset Introduction
 
