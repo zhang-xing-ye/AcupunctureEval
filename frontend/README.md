@@ -1,9 +1,11 @@
 # AcupunctureEval Frontend
 
+[中文](README.md) | [English](README_EN.md)
+
 本目录为前端站点（Vue 3 + Vite）。目前主要提供：
 
 - 首页/数据集介绍页面
-- 排行榜页面 UI（**当前数据为 mock，尚未对接后端接口**）
+- 排行榜页面（从后端接口读取数据）
 
 ---
 
@@ -20,29 +22,14 @@ npm run dev
 
 ---
 
-## 最小对接说明（计划近期对接）
+## 与后端联调说明
 
-目标：让排行榜页面从后端读取数据。
+默认情况下，前端会请求同一台机器上的 `http://<host>:8000`（见 `src/utils/request.js`）。
 
-后端接口（默认 `http://127.0.0.1:8000`）：
+后端接口：
 
 - `GET /qa/data?skip=0&limit=20`
 - `GET /vqa/data?skip=0&limit=20`
-
-### 方式 1：Vite dev server 代理（推荐）
-
-在 `vite.config.js` 配置 `server.proxy`，例如把 `/api` 代理到后端：
-
-- 前端请求：`/api/qa/data?skip=0&limit=20`
-- 代理到：`http://127.0.0.1:8000/qa/data?skip=0&limit=20`
-
-（Vite 官方配置项：`server.proxy`，详见 Vite 文档。）
-
-### 方式 2：直接请求后端（不走代理）
-
-直接请求 `http://127.0.0.1:8000/qa/data` / `http://127.0.0.1:8000/vqa/data`。
-
-注意：后端当前已开启 CORS（允许任意来源），本地开发一般可直接调用。
 
 ---
 
@@ -62,7 +49,6 @@ npm run dev
 
 ## 数据集说明
 
-- 当前公开的 QA/VQA JSON（位于 `datasets/qa` 与 `datasets/vqa`）仅保留每个文件的前 2 道题目，作为轻量示例。
-- 需要完整题库时，请使用 `backup/` 下的 `*_full.json`（例如 `backup/datasets/qa/A1_full.json` 或 `backup/datasets/vqa/第一类题型/单选题_324题_full.json`）。
-- 你可以通过 `backend/scripts/trim_datasets.py` 从 `backup/**/_full.json` 重新生成 trimmed 样例。
-- 说明：`backup/` 默认被 `.gitignore` 忽略，不会提交到仓库。
+- 仓库内提供的 QA/VQA JSON 用于演示与联调。
+- 如果你有自己的完整题库/标准答案，可替换 `datasets/` 与 `backend/datasets/` 下的文件，再按相同格式提交预测进行评测。
+
