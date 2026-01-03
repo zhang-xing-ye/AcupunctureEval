@@ -3,13 +3,7 @@
         <!-- Logo / Title -->
         <div class="flex items-center gap-3 cursor-pointer select-none" @click="router.push('/')">
             <!-- Logo Icon Placeholder -->
-            <div class="w-9 h-9 bg-teal-600 rounded-lg flex items-center justify-center text-white shadow-sm">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path
-                        d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.3.3 0 1 0 .2.3V4a1 1 0 0 1 1 1v5a5 5 0 0 1-10 0V5a1 1 0 0 1 1-1h1.8" />
-                </svg>
-            </div>
+            <img src="/logo.png" alt="Logo" class="w-9 h-9 rounded-lg object-contain" />
             <span class="text-xl font-bold text-gray-800 tracking-tight">AcupunctureEval</span>
         </div>
 

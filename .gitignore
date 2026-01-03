@@ -23,10 +23,6 @@ dist-ssr/
 
 # ===== IDE/OS =====
 .vscode/
-# 但保留前端的扩展推荐配置
-!frontend/.vscode/
-frontend/.vscode/*
-!frontend/.vscode/extensions.json
 .idea/
 .DS_Store
 Thumbs.db
@@ -50,3 +46,7 @@ build/
 
 # Ignore full dataset backups
 backup/
+
+# Generated local artifacts
+backend/scripts/test_predictions/
+
