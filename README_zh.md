@@ -1,4 +1,4 @@
-# AcupunctureEval: A Multimodal Benchmark for Evaluating Generative Models in the Acupuncture Domain
+<h1 align="center">AcupunctureEval: A Multimodal Benchmark for Evaluating Generative Models in the Acupuncture Domain</h1>
 
 <p align="center">
   <a href="https://openreview.net/forum?id=YyJBqE1ERp"><img src="https://img.shields.io/badge/Paper-OpenReview-b31b1b" alt="Paper"></a>
@@ -26,8 +26,8 @@
 
 ## 🌈 更新
 
-[2026.01.04] AcupunctureEval 网站上线: https://www.AcupunctureEval.daytime001.xin
-[2025.01.02] AcupunctureEval平台初始化，支持 VQA 和 QA 多维度评测。
+- [2026.01.04] AcupunctureEval 网站上线: https://www.AcupunctureEval.daytime001.xin
+- [2025.01.02] AcupunctureEval平台初始化，支持 VQA 和 QA 多维度评测。
 
 <a id="-项目总览"></a>
 

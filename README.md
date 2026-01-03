@@ -1,4 +1,4 @@
-# AcupunctureEval: A Multimodal Benchmark for Evaluating Generative Models in the Acupuncture Domain
+<h1 align="center">AcupunctureEval: A Multimodal Benchmark for Evaluating Generative Models in the Acupuncture Domain</h1>
 
 <p align="center">
   <a href="https://openreview.net/forum?id=YyJBqE1ERp"><img src="https://img.shields.io/badge/Paper-OpenReview-b31b1b" alt="Paper"></a>
@@ -26,8 +26,8 @@
 
 ## 🌈 Updates
 
-[2026.01.04] AcupunctureEval website is online: https://www.AcupunctureEval.daytime001.xin
-[2025.01.02] AcupunctureEval platform initialized, supporting multi-dimensional VQA and QA evaluation.
+- [2026.01.04] AcupunctureEval website is online: https://www.AcupunctureEval.daytime001.xin
+- [2025.01.02] AcupunctureEval platform initialized, supporting multi-dimensional VQA and QA evaluation.
 
 <a id="-overview"></a>
 
@@ -38,6 +38,7 @@
 <p align="center">
   <img src="assets/flowchart.png" width="90%" alt="Overview">
 </p>
+
 - **First Acupuncture-Specific Benchmark**: Entirely self-constructed without relying on existing public datasets
 - **Multimodal Coverage**: Integrates text (AcupunctureQA), visual QA (AcupunctureVQA), and video (AcupunctureVideo)
 - **Large-Scale**: Contains **58,686** question samples and **1,216** video samples
