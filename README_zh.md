@@ -1,36 +1,51 @@
-# AcupunctureEval
+# AcupunctureEval: A Multimodal Benchmark for Evaluating Generative Models in the Acupuncture Domain
 
-<div align="center">
-    <img src="frontend/public/logo.svg" width="100" height="100" alt="Logo">
-</div>
+<p align="center">
+  <a href="https://openreview.net/forum?id=YyJBqE1ERp"><img src="https://img.shields.io/badge/Paper-OpenReview-b31b1b" alt="Paper"></a>
+  <a href="https://www.AcupunctureEval.daytime001.xin"><img src="https://img.shields.io/badge/Website-AcupunctureEval-blue" alt="Website"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green" alt="License"></a>
+</p>
 
+<p align="center">
+  <a href="#-更新">🌈 更新</a> •
+  <a href="#-项目总览">📖 项目总览</a> •
+  <a href="#-数据集介绍">🥸 数据集介绍</a>
+</p>
 
-<div align="center">
+<p align="center">
+  <a href="#-快速开始">🚀 快速开始</a> •
+  <a href="#-评测通道">📊 评测通道</a> •
+  <a href="#-许可">📄 许可</a>
+</p>
 
-**Acupuncture Question Bank Evaluation & Leaderboard Platform**
+<p align="center">
+  中文 | <a href="README.md">English</a>
+</p>
 
-[📃 Paper](https://openreview.net/forum?id=YyJBqE1ERp) • [🌐 Website](https://www.AcupunctureEval.daytime001.xin)
-
-中文 | [English](README.md)
-
-</div>
+<a id="-更新"></a>
 
 ## 🌈 更新
 
+[2026.01.04] AcupunctureEval 网站上线: https://www.AcupunctureEval.daytime001.xin
 [2025.01.02] AcupunctureEval平台初始化，支持 VQA 和 QA 多维度评测。
 
-## 🌐 下载与安装
+<a id="-项目总览"></a>
 
-推荐使用 `git` 克隆本项目：
+## 📖 项目总览
 
-```bash
-git clone "https://github.com/your-username/AcupunctureEval.git"
-cd AcupunctureEval
-```
+**AcupunctureEval** 是首个专为针灸领域设计的大规模多模态基准测试，涵盖**文本**、**图像**和**视频**三种模态，覆盖针灸理论、经络腧穴、临床推理、中医证候及穴位操作等多维度知识。
 
-## 🥇 排行榜
+<p align="center">
+  <img src="assets/flowchart.png" width="90%" alt="Overview">
+</p>
 
-请启动服务后访问官网 [Leaderboard](https://www.AcupunctureEval.daytime001.xin/leaderboard) 查看最新模型排名。
+- **首个针灸专属基准**：完全自主构建，不依赖任何现有公开数据集
+- **多模态覆盖**：整合文本问答 (AcupunctureQA)、视觉问答 (AcupunctureVQA) 和视频理解 (AcupunctureVideo)
+- **大规模数据**：包含 **58,686** 道问题样本和 **1,216** 个视频样本
+- **多样化任务类型**：涵盖客观题、主观问答、病案分析、图像理解、图像推理和视频理解
+- **人机协作流程**：通过专家审核确保数据质量与规模兼顾
+
+<a id="-数据集介绍"></a>
 
 ## 🥸 数据集介绍
 
@@ -107,6 +122,8 @@ cd AcupunctureEval
 }
 ```
 
+<a id="-快速开始"></a>
+
 ## 🚀 快速开始
 
 本项目包含前后端分离的架构：FastAPI 后端 + Vue3 前端。
@@ -140,6 +157,8 @@ npm run dev
 ```
 启动后访问页面：`http://127.0.0.1:5173/`
 
+<a id="-评测通道"></a>
+
 ## 📊 评测通道
 
 我们提供了在线评测提交方式：
@@ -152,6 +171,9 @@ npm run dev
 - 扁平题型（A1/A2/X）提交数组格式。
 - 分组题型（A3/A4/B）需包含父题 ID 和子题 outputs。
 ![reference](assets/reference_zh.png)
+
+<a id="-许可"></a>
+
 ## 📄 License
 
 本项目遵循 [MIT License](LICENSE)。

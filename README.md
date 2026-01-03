@@ -1,36 +1,50 @@
-# AcupunctureEval
+# AcupunctureEval: A Multimodal Benchmark for Evaluating Generative Models in the Acupuncture Domain
 
-<div align="center">
-    <img src="frontend/public/logo.svg" width="100" height="100" alt="Logo">
-</div>
+<p align="center">
+  <a href="https://openreview.net/forum?id=YyJBqE1ERp"><img src="https://img.shields.io/badge/Paper-OpenReview-b31b1b" alt="Paper"></a>
+  <a href="https://www.AcupunctureEval.daytime001.xin"><img src="https://img.shields.io/badge/Website-AcupunctureEval-blue" alt="Website"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green" alt="License"></a>
+</p>
 
+<p align="center">
+  <a href="#-updates">🌈 Updates</a> •
+  <a href="#-overview">📖 Overview</a> •
+  <a href="#-dataset-introduction">🥸 Dataset</a>
+</p>
 
-<div align="center">
+<p align="center">
+  <a href="#-quick-start">🚀 Quick Start</a> •
+  <a href="#-evaluation-channel">📊 Evaluation</a> •
+  <a href="#-license">📄 License</a>
+</p>
 
-**Acupuncture/TCM Question Bank Evaluation & Leaderboard Platform**
+<p align="center">
+  <a href="README_zh.md">中文</a> | English
+</p>
 
-[📃 Paper](https://openreview.net/forum?id=YyJBqE1ERp) • [🌐 Website](https://www.AcupunctureEval.daytime001.xin)
-
-[中文](README_zh.md) | English
-
-</div>
+<a id="-updates"></a>
 
 ## 🌈 Updates
 
+[2026.01.04] AcupunctureEval website is online: https://www.AcupunctureEval.daytime001.xin
 [2025.01.02] AcupunctureEval platform initialized, supporting multi-dimensional VQA and QA evaluation.
 
-## 🌐 Download & Installation
+<a id="-overview"></a>
 
-It is recommended to use `git` to clone this project:
+## 📖 Overview
 
-```bash
-git clone "https://github.com/your-username/AcupunctureEval.git"
-cd AcupunctureEval
-```
+**AcupunctureEval** is the first large-scale multimodal benchmark specifically designed for evaluating generative models in the acupuncture domain. It covers **text**, **image**, and **video** modalities, spanning multidimensional knowledge including acupuncture theory, meridians and acupoints, clinical reasoning, TCM syndromes, and practical acupoint operation.
 
-## 🥇 Leaderboard
+<p align="center">
+  <img src="assets/flowchart.png" width="90%" alt="Overview">
+</p>
+- **First Acupuncture-Specific Benchmark**: Entirely self-constructed without relying on existing public datasets
+- **Multimodal Coverage**: Integrates text (AcupunctureQA), visual QA (AcupunctureVQA), and video (AcupunctureVideo)
+- **Large-Scale**: Contains **58,686** question samples and **1,216** video samples
+- **Diverse Task Types**: Objective questions, subjective QA, case analysis, image understanding, image reasoning, and video understanding
+- **Human-Machine Collaborative Pipeline**: Ensures both data quality and scale through expert validation
 
-Please verify the latest model rankings on the official [Leaderboard](https://www.AcupunctureEval.daytime001.xin) after starting the service.
+<a id="-dataset-introduction"></a>
 
 ## 🥸 Dataset Introduction
 
@@ -108,6 +122,8 @@ A video dataset regarding practical acupuncture point operations, with a total o
 }
 ```
 
+<a id="-quick-start"></a>
+
 ## 🚀 Quick Start
 
 This project contains a separated frontend and backend architecture: FastAPI Backend + Vue3 Frontend.
@@ -141,6 +157,8 @@ npm run dev
 ```
 After startup, access the page: `http://127.0.0.1:5173/`
 
+<a id="-evaluation-channel"></a>
+
 ## 📊 Evaluation Channel
 
 We provide online evaluation submission methods:
@@ -153,6 +171,8 @@ We provide online evaluation submission methods:
 - Flat question types (A1/A2/X) submit array format.
 - Grouped question types (A3/A4/B) need to include parent question ID and sub-question outputs.
 ![reference](assets/reference_en.png)
+
+<a id="-license"></a>
 
 ## 📄 License
 
