@@ -165,12 +165,17 @@ After startup, access the page: `http://127.0.0.1:5173/`
 We provide online evaluation submission methods:
 
 1. **Web Interface Submission**: Upload the prediction result JSON file on the "Evaluation" page.
+
 ![evaluate](assets/evaluate_en.png)
 
+<br>
+
 **Prediction File Format Description**:
+
 - Please refer to the JSON structure in 'Reference Case'.
 - Flat question types (A1/A2/X) submit array format.
 - Grouped question types (A3/A4/B) need to include parent question ID and sub-question outputs.
+
 ![reference](assets/reference_en.png)
 
 <a id="-license"></a>

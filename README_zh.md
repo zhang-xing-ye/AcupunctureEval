@@ -164,12 +164,17 @@ npm run dev
 我们提供了在线评测提交方式：
 
 1. **Web 界面提交**：在“评测”页面上传预测结果 JSON 文件。
+
 ![evaluate](assets/evaluate_zh.png)
 
+<br>
+
 **预测文件格式说明**：
-- 请参考‘参考案例’中的 JSON 结构。
+
+- 请参考'参考案例'中的 JSON 结构。
 - 扁平题型（A1/A2/X）提交数组格式。
 - 分组题型（A3/A4/B）需包含父题 ID 和子题 outputs。
+
 ![reference](assets/reference_zh.png)
 
 <a id="-许可"></a>
