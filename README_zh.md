@@ -7,14 +7,14 @@
 </p>
 
 <p align="center">
-  <a href="#updates">🌈 更新</a> •
-  <a href="#overview">📖 项目总览</a> •
-  <a href="#dataset">🥸 数据集介绍</a>
+  <a href="README_zh.md#updates">🌈 更新</a> •
+  <a href="README_zh.md#overview">📖 项目总览</a> •
+  <a href="README_zh.md#dataset">🥸 数据集介绍</a>
 </p>
 
 <p align="center">
-  <a href="#evaluation">📊 评测通道</a> •
-  <a href="#license">📄 许可</a>
+  <a href="README_zh.md#evaluation">📊 评测通道</a> •
+  <a href="README_zh.md#license">📄 许可</a>
 </p>
 
 <p align="center">

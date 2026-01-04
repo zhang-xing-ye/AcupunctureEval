@@ -7,14 +7,14 @@
 </p>
 
 <p align="center">
-  <a href="#updates">🌈 Updates</a> •
-  <a href="#overview">📖 Overview</a> •
-  <a href="#dataset">🥸 Dataset</a>
+  <a href="README.md#updates">🌈 Updates</a> •
+  <a href="README.md#overview">📖 Overview</a> •
+  <a href="README.md#dataset">🥸 Dataset</a>
 </p>
 
 <p align="center">
-  <a href="#evaluation">📊 Evaluation</a> •
-  <a href="#license">📄 License</a>
+  <a href="README.md#evaluation">📊 Evaluation</a> •
+  <a href="README.md#license">📄 License</a>
 </p>
 
 <p align="center">
