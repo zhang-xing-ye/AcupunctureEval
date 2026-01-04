@@ -2,33 +2,33 @@
 
 <p align="center">
   <a href="https://openreview.net/forum?id=YyJBqE1ERp"><img src="https://img.shields.io/badge/Paper-OpenReview-b31b1b" alt="Paper"></a>
-  <a href="https://www.AcupunctureEval.daytime001.xin"><img src="https://img.shields.io/badge/Website-AcupunctureEval-blue" alt="Website"></a>
+  <a href="https://AcupunctureEval.daytime001.xin"><img src="https://img.shields.io/badge/Website-AcupunctureEval-blue" alt="Website"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green" alt="License"></a>
 </p>
 
 <p align="center">
-  <a href="#-updates">🌈 Updates</a> •
-  <a href="#-overview">📖 Overview</a> •
-  <a href="#-dataset-introduction">🥸 Dataset</a>
+  <a href="#updates">🌈 Updates</a> •
+  <a href="#overview">📖 Overview</a> •
+  <a href="#dataset">🥸 Dataset</a>
 </p>
 
 <p align="center">
-  <a href="#-evaluation-channel">📊 Evaluation</a> •
-  <a href="#-license">📄 License</a>
+  <a href="#evaluation">📊 Evaluation</a> •
+  <a href="#license">📄 License</a>
 </p>
 
 <p align="center">
   <a href="README_zh.md">中文</a> | English
 </p>
 
-<a id="-updates"></a>
+<a id="updates"></a>
 
 ## 🌈 Updates
 
-- [2026.01.04] AcupunctureEval website is online: https://www.AcupunctureEval.daytime001.xin
+- [2026.01.04] AcupunctureEval website is online: [https://AcupunctureEval.daytime001.xin](https://AcupunctureEval.daytime001.xin)
 - [2025.01.02] AcupunctureEval platform initialized, supporting multi-dimensional VQA and QA evaluation.
 
-<a id="-overview"></a>
+<a id="overview"></a>
 
 ## 📖 Overview
 
@@ -44,7 +44,7 @@
 - **Diverse Task Types**: Objective questions, subjective QA, case analysis, image understanding, image reasoning, and video understanding
 - **Human-Machine Collaborative Pipeline**: Ensures both data quality and scale through expert validation
 
-<a id="-dataset-introduction"></a>
+<a id="dataset"></a>
 
 ## 🥸 Dataset Introduction
 
@@ -122,7 +122,7 @@ A video dataset regarding practical acupuncture point operations, with a total o
 }
 ```
 
-<a id="-evaluation-channel"></a>
+<a id="evaluation"></a>
 
 ## 📊 Evaluation Channel
 
@@ -142,7 +142,7 @@ We provide online evaluation submission methods:
 
 ![reference](assets/reference_en.png)
 
-<a id="-license"></a>
+<a id="license"></a>
 
 ## 📄 License
 

@@ -2,33 +2,33 @@
 
 <p align="center">
   <a href="https://openreview.net/forum?id=YyJBqE1ERp"><img src="https://img.shields.io/badge/Paper-OpenReview-b31b1b" alt="Paper"></a>
-  <a href="https://www.AcupunctureEval.daytime001.xin"><img src="https://img.shields.io/badge/Website-AcupunctureEval-blue" alt="Website"></a>
+  <a href="https://AcupunctureEval.daytime001.xin"><img src="https://img.shields.io/badge/Website-AcupunctureEval-blue" alt="Website"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green" alt="License"></a>
 </p>
 
 <p align="center">
-  <a href="#-更新">🌈 更新</a> •
-  <a href="#-项目总览">📖 项目总览</a> •
-  <a href="#-数据集介绍">🥸 数据集介绍</a>
+  <a href="#updates">🌈 更新</a> •
+  <a href="#overview">📖 项目总览</a> •
+  <a href="#dataset">🥸 数据集介绍</a>
 </p>
 
 <p align="center">
-  <a href="#-评测通道">📊 评测通道</a> •
-  <a href="#-许可">📄 许可</a>
+  <a href="#evaluation">📊 评测通道</a> •
+  <a href="#license">📄 许可</a>
 </p>
 
 <p align="center">
   中文 | <a href="README.md">English</a>
 </p>
 
-<a id="-更新"></a>
+<a id="updates"></a>
 
 ## 🌈 更新
 
-- [2026.01.04] AcupunctureEval 网站上线: https://www.AcupunctureEval.daytime001.xin
+- [2026.01.04] AcupunctureEval 网站上线: [https://AcupunctureEval.daytime001.xin](https://AcupunctureEval.daytime001.xin)
 - [2025.01.02] AcupunctureEval平台初始化，支持 VQA 和 QA 多维度评测。
 
-<a id="-项目总览"></a>
+<a id="overview"></a>
 
 ## 📖 项目总览
 
@@ -44,7 +44,7 @@
 - **多样化任务类型**：涵盖客观题、主观问答、病案分析、图像理解、图像推理和视频理解
 - **人机协作流程**：通过专家审核确保数据质量与规模兼顾
 
-<a id="-数据集介绍"></a>
+<a id="dataset"></a>
 
 ## 🥸 数据集介绍
 
@@ -121,7 +121,7 @@
 }
 ```
 
-<a id="-评测通道"></a>
+<a id="evaluation"></a>
 
 ## 📊 评测通道
 
@@ -141,7 +141,7 @@
 
 ![reference](assets/reference_zh.png)
 
-<a id="-许可"></a>
+<a id="license"></a>
 
 ## 📄 License
 
