@@ -81,7 +81,7 @@
                 <h3 class="text-xl font-bold text-gray-900 mb-6 border-l-4 border-teal-600 pl-4 relative z-10">{{
                     t('home.charts.chart2_title') }}</h3>
                 <div class="w-full h-[500px] flex items-center justify-center">
-                    <VueUiXy :dataset="subjectDistribution" :config="xyConfig" />
+                    <VueUiXy :dataset="videoAnalysisData" :config="xyConfig" />
                 </div>
             </div>
         </section>
@@ -222,29 +222,74 @@ const donutConfig = ref({
     }
 })
 
-// XY图数据（学科分布）
-const subjectDistribution = ref([
+// XY图数据（视频理解结果分析）
+// TODO: 请根据 video_comprehension_result.jpg 中的实际数据更新以下数值和标签
+// The following data is a placeholder structure for the merged charts from the image.
+const videoAnalysisData = ref([
     {
-        name: 'Questions',
-        series: [2500, 1800, 3200, 1500, 2200],
+        name: 'nemotron-nano-12b-v2-vl', // 请替换为实际模型名称
+        series: [48.68, 48.81], // 替换为实际数据
         type: 'bar',
-        color: '#0d9488'
+        color: '#60A5FA' // 对应图片中的蓝色
+    },
+    {
+        name: 'glm-4.6v', // 请替换为实际模型名称
+        series: [68.42, 50.00], // 替换为实际数据
+        type: 'bar',
+        color: '#D55E00' // 对应图片中的黄色
+    },
+
+    {
+        name: 'gemini-2.5-flash-lite-preview-09-2025', // 请替换为实际模型名称
+        series: [75.00, 59.52], // 替换为实际数据
+        type: 'bar',
+        color: '#009D72' // 对应图片中的青色
+    },
+    {
+        name: 'gemini-3-flash-preview', // 请替换为实际模型名称
+        series: [72.37, 63.10], // 替换为实际数据
+        type: 'bar',
+        color: '#CB78A6' // 对应图片中的靛青色或紫色
     }
 ])
 
 const xyConfig = ref({
     chart: {
-        labels: {
-            xAxisLabels: {
-                values: ['Internal Med', 'Surgery', 'Acupuncture', 'Diagnosis', 'Prescriptions'],
-                color: "#1f2937"
+        grid: {
+            stroke: "#e5e7eb",
+            showVerticalLines: false,
+            labels: {
+                xAxisLabels: {
+                    values: ['Video comprehension(person)', 'Video comprehension(pig)'],
+                    color: "#1f2937",
+                    fontSize: 28
+                }
             }
         },
-        grid: {
-            stroke: "#e5e7eb"
+        legend: {
+            show: true,
+            position: 'top',
+            backgroundColor: "#FFFFFF",
+            color: "#1f2937"
+        },
+        tooltip: {
+            show: true,
+            backgroundColor: "#FFFFFF",
+            color: "#1f2937",
+            borderRadius: 4,
+            borderColor: "#e5e7eb",
+            borderWidth: 1,
+            roundingValue: 2,
+            showPercentage: false
         },
         userOptions: {
             show: false
+        },
+        padding: {
+            top: 20,
+            right: 20,
+            bottom: 20,
+            left: 20
         }
     },
     style: {
@@ -259,7 +304,12 @@ const xyConfig = ref({
     },
     bar: {
         borderRadius: 4,
-        useGradient: false
+        useGradient: false,
+        periodGap: 0.1, // 调整柱状图之间的间距
+        labels: {
+            show: true,
+            rounding: 2
+        }
     }
 })
 

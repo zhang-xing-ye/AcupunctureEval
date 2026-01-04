@@ -44,7 +44,7 @@ export default {
         },
         charts: {
             chart1_title: '数据集分布概览',
-            chart2_title: '学科领域数据统计'
+            chart2_title: '视频理解结果分析'
         }
     },
     datasets: {

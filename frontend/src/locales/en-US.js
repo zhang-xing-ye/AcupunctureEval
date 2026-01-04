@@ -44,7 +44,7 @@ export default {
         },
         charts: {
             chart1_title: 'Dataset Distribution Overview',
-            chart2_title: 'Subject Domain Statistics'
+            chart2_title: 'Video Comprehension Analysis'
         }
     },
     datasets: {
